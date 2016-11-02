@@ -135,7 +135,7 @@ var Inbox = function () {
                 toggleButton(el);
 
                 $('.inbox-nav > li.active').removeClass('active');
-                $('.inbox-header > h1').text('Compose');
+                $('.inbox-header > h1').text('我要发送');
 
                 loading.hide();
                 content.html(res);
@@ -174,7 +174,7 @@ var Inbox = function () {
                 toggleButton(el);
 
                 $('.inbox-nav > li.active').removeClass('active');
-                $('.inbox-header > h1').text('Reply');
+                $('.inbox-header > h1').text('回复');
 
                 loading.hide();
                 content.html(res);
@@ -212,7 +212,7 @@ var Inbox = function () {
                 toggleButton(el);
 
                 $('.inbox-nav > li.active').removeClass('active');
-                $('.inbox-header > h1').text('Search');
+                $('.inbox-header > h1').text('查找');
 
                 loading.hide();
                 content.html(res);

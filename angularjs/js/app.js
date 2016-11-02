@@ -116,7 +116,7 @@ MetronicApp.controller('SidebarController', ['$scope', function($scope) {
 MetronicApp.controller('QuickSidebarController', ['$scope', function($scope) {    
     $scope.$on('$includeContentLoaded', function() {
         setTimeout(function(){
-            QuickSidebar.init(); // init quick sidebar        
+            QuickSidebar.init(); // 初始化侧面导航        
         }, 2000)
     });
 }]);

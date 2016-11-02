@@ -529,7 +529,7 @@ var Index = function () {
                 tpl += '<img class="avatar" alt="" src="' + Layout.getLayoutImgPath() + 'avatar1.jpg"/>';
                 tpl += '<div class="message">';
                 tpl += '<span class="arrow"></span>';
-                tpl += '<a href="#" class="name">Bob Nilson</a>&nbsp;';
+                tpl += '<a href="#" class="name"> ËÎ½­ </a>&nbsp;';
                 tpl += '<span class="datetime">at ' + time_str + '</span>';
                 tpl += '<span class="body">';
                 tpl += text;
