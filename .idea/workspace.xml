@@ -4,7 +4,142 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3dd3617-c1d0-497b-b68d-ab21afa854da" name="Default" comment="" />
+    <list default="true" id="b3dd3617-c1d0-497b-b68d-ab21afa854da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/index.html" afterPath="$PROJECT_DIR$/angularjs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/tpl/header.html" afterPath="$PROJECT_DIR$/angularjs/tpl/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/tpl/quick-sidebar.html" afterPath="$PROJECT_DIR$/angularjs/tpl/quick-sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/tpl/sidebar.html" afterPath="$PROJECT_DIR$/angularjs/tpl/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/tpl/theme-panel.html" afterPath="$PROJECT_DIR$/angularjs/tpl/theme-panel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/views/dashboard.html" afterPath="$PROJECT_DIR$/angularjs/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/views/profile/dashboard.html" afterPath="$PROJECT_DIR$/angularjs/views/profile/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/css/components.css" afterPath="$PROJECT_DIR$/assets/global/css/components.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts_amcharts.html" afterPath="$PROJECT_DIR$/charts_amcharts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts_flotcharts.html" afterPath="$PROJECT_DIR$/charts_flotcharts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_context_menu.html" afterPath="$PROJECT_DIR$/components_context_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_dropdowns.html" afterPath="$PROJECT_DIR$/components_dropdowns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_dropdowns_test.html" afterPath="$PROJECT_DIR$/components_dropdowns_test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_editors.html" afterPath="$PROJECT_DIR$/components_editors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_form_tools.html" afterPath="$PROJECT_DIR$/components_form_tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_form_tools2.html" afterPath="$PROJECT_DIR$/components_form_tools2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_ion_sliders.html" afterPath="$PROJECT_DIR$/components_ion_sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_jqueryui_sliders.html" afterPath="$PROJECT_DIR$/components_jqueryui_sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_knob_dials.html" afterPath="$PROJECT_DIR$/components_knob_dials.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_noui_sliders.html" afterPath="$PROJECT_DIR$/components_noui_sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_pickers.html" afterPath="$PROJECT_DIR$/components_pickers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_index.html" afterPath="$PROJECT_DIR$/ecommerce_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_orders.html" afterPath="$PROJECT_DIR$/ecommerce_orders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_orders_view.html" afterPath="$PROJECT_DIR$/ecommerce_orders_view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_products.html" afterPath="$PROJECT_DIR$/ecommerce_products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_products_edit.html" afterPath="$PROJECT_DIR$/ecommerce_products_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_404_option1.html" afterPath="$PROJECT_DIR$/extra_404_option1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_404_option2.html" afterPath="$PROJECT_DIR$/extra_404_option2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_404_option3.html" afterPath="$PROJECT_DIR$/extra_404_option3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_500_option1.html" afterPath="$PROJECT_DIR$/extra_500_option1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_500_option2.html" afterPath="$PROJECT_DIR$/extra_500_option2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_faq.html" afterPath="$PROJECT_DIR$/extra_faq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_invoice.html" afterPath="$PROJECT_DIR$/extra_invoice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_lock.html" afterPath="$PROJECT_DIR$/extra_lock.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_lock2.html" afterPath="$PROJECT_DIR$/extra_lock2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_pricing_table.html" afterPath="$PROJECT_DIR$/extra_pricing_table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile.html" afterPath="$PROJECT_DIR$/extra_profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile_account.html" afterPath="$PROJECT_DIR$/extra_profile_account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile_help.html" afterPath="$PROJECT_DIR$/extra_profile_help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile_old.html" afterPath="$PROJECT_DIR$/extra_profile_old.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_search.html" afterPath="$PROJECT_DIR$/extra_search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_controls.html" afterPath="$PROJECT_DIR$/form_controls.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_controls_md.html" afterPath="$PROJECT_DIR$/form_controls_md.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_dropzone.html" afterPath="$PROJECT_DIR$/form_dropzone.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_editable.html" afterPath="$PROJECT_DIR$/form_editable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_fileupload.html" afterPath="$PROJECT_DIR$/form_fileupload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_icheck.html" afterPath="$PROJECT_DIR$/form_icheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_image_crop.html" afterPath="$PROJECT_DIR$/form_image_crop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_layouts.html" afterPath="$PROJECT_DIR$/form_layouts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_validation.html" afterPath="$PROJECT_DIR$/form_validation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_wizard.html" afterPath="$PROJECT_DIR$/form_wizard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inbox.html" afterPath="$PROJECT_DIR$/inbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_2.html" afterPath="$PROJECT_DIR$/index_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_3.html" afterPath="$PROJECT_DIR$/index_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_horizontal_menu.html" afterPath="$PROJECT_DIR$/index_horizontal_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_ajax.html" afterPath="$PROJECT_DIR$/layout_ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_blank_page.html" afterPath="$PROJECT_DIR$/layout_blank_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_boxed_page.html" afterPath="$PROJECT_DIR$/layout_boxed_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_disabled_menu.html" afterPath="$PROJECT_DIR$/layout_disabled_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_fontawesome_icons.html" afterPath="$PROJECT_DIR$/layout_fontawesome_icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_full_height_content.html" afterPath="$PROJECT_DIR$/layout_full_height_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_full_height_portlet.html" afterPath="$PROJECT_DIR$/layout_full_height_portlet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_glyphicons.html" afterPath="$PROJECT_DIR$/layout_glyphicons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_horizontal_menu1.html" afterPath="$PROJECT_DIR$/layout_horizontal_menu1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_horizontal_menu2.html" afterPath="$PROJECT_DIR$/layout_horizontal_menu2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_horizontal_sidebar_menu.html" afterPath="$PROJECT_DIR$/layout_horizontal_sidebar_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_language_bar.html" afterPath="$PROJECT_DIR$/layout_language_bar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_search_on_header1.html" afterPath="$PROJECT_DIR$/layout_search_on_header1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_search_on_header2.html" afterPath="$PROJECT_DIR$/layout_search_on_header2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_closed.html" afterPath="$PROJECT_DIR$/layout_sidebar_closed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_fixed.html" afterPath="$PROJECT_DIR$/layout_sidebar_fixed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_reversed.html" afterPath="$PROJECT_DIR$/layout_sidebar_reversed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_search_option1.html" afterPath="$PROJECT_DIR$/layout_sidebar_search_option1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_search_option2.html" afterPath="$PROJECT_DIR$/layout_sidebar_search_option2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login_2.html" afterPath="$PROJECT_DIR$/login_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login_3.html" afterPath="$PROJECT_DIR$/login_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login_soft.html" afterPath="$PROJECT_DIR$/login_soft.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps_google.html" afterPath="$PROJECT_DIR$/maps_google.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps_vector.html" afterPath="$PROJECT_DIR$/maps_vector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_about.html" afterPath="$PROJECT_DIR$/page_about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_blog.html" afterPath="$PROJECT_DIR$/page_blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_blog_item.html" afterPath="$PROJECT_DIR$/page_blog_item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_calendar.html" afterPath="$PROJECT_DIR$/page_calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_coming_soon.html" afterPath="$PROJECT_DIR$/page_coming_soon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_contact.html" afterPath="$PROJECT_DIR$/page_contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_news.html" afterPath="$PROJECT_DIR$/page_news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_news_item.html" afterPath="$PROJECT_DIR$/page_news_item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_portfolio.html" afterPath="$PROJECT_DIR$/page_portfolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_timeline.html" afterPath="$PROJECT_DIR$/page_timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_timeline_old.html" afterPath="$PROJECT_DIR$/page_timeline_old.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_todo.html" afterPath="$PROJECT_DIR$/page_todo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_ajax.html" afterPath="$PROJECT_DIR$/portlet_ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_draggable.html" afterPath="$PROJECT_DIR$/portlet_draggable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_general.html" afterPath="$PROJECT_DIR$/portlet_general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_general2.html" afterPath="$PROJECT_DIR$/portlet_general2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_general3.html" afterPath="$PROJECT_DIR$/portlet_general3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_on_boxed_layout.html" afterPath="$PROJECT_DIR$/quick_sidebar_on_boxed_layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_over_content.html" afterPath="$PROJECT_DIR$/quick_sidebar_over_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_over_content_transparent.html" afterPath="$PROJECT_DIR$/quick_sidebar_over_content_transparent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_push_content.html" afterPath="$PROJECT_DIR$/quick_sidebar_push_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_push_page.html" afterPath="$PROJECT_DIR$/quick_sidebar_push_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_advanced.html" afterPath="$PROJECT_DIR$/table_advanced.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_ajax.html" afterPath="$PROJECT_DIR$/table_ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_basic.html" afterPath="$PROJECT_DIR$/table_basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_editable.html" afterPath="$PROJECT_DIR$/table_editable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_managed.html" afterPath="$PROJECT_DIR$/table_managed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_responsive.html" afterPath="$PROJECT_DIR$/table_responsive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_tree.html" afterPath="$PROJECT_DIR$/table_tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_alert_dialog_api.html" afterPath="$PROJECT_DIR$/ui_alert_dialog_api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_blockui.html" afterPath="$PROJECT_DIR$/ui_blockui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_bootstrap_growl.html" afterPath="$PROJECT_DIR$/ui_bootstrap_growl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_buttons.html" afterPath="$PROJECT_DIR$/ui_buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_colors.html" afterPath="$PROJECT_DIR$/ui_colors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_confirmations.html" afterPath="$PROJECT_DIR$/ui_confirmations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_datepaginator.html" afterPath="$PROJECT_DIR$/ui_datepaginator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_extended_modals.html" afterPath="$PROJECT_DIR$/ui_extended_modals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_general.html" afterPath="$PROJECT_DIR$/ui_general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_icons.html" afterPath="$PROJECT_DIR$/ui_icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_idle_timeout.html" afterPath="$PROJECT_DIR$/ui_idle_timeout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_modals.html" afterPath="$PROJECT_DIR$/ui_modals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_nestable.html" afterPath="$PROJECT_DIR$/ui_nestable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_notific8.html" afterPath="$PROJECT_DIR$/ui_notific8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_1.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_2.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_3.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_4.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_session_timeout.html" afterPath="$PROJECT_DIR$/ui_session_timeout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_tabs_accordions_navs.html" afterPath="$PROJECT_DIR$/ui_tabs_accordions_navs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_tiles.html" afterPath="$PROJECT_DIR$/ui_tiles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_toastr.html" afterPath="$PROJECT_DIR$/ui_toastr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_tree.html" afterPath="$PROJECT_DIR$/ui_tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_typography.html" afterPath="$PROJECT_DIR$/ui_typography.html" />
+    </list>
     <ignored path="admin_html.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +158,55 @@
     <favorites_list name="admin_html" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24949698">
+              <caret line="406" column="8" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#11;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#11;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#11;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#13;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="components.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global/css/components.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2445.0715">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/assets/global/css/components.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -38,8 +217,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -69,6 +247,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -89,7 +268,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,16 +293,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2544643" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13392857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2369281" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -139,15 +317,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.226619">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2445.0715">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20503597">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.24949698">
+          <caret line="406" column="8" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#11;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#11;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#11;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#13;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -27,13 +27,12 @@
 <!-- 页面私有样式开始 -->
 <link href="assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
 <!-- 页面私有样式结束 -->
-<!-- BEGIN THEME STYLES -->
+<span> 侧边栏样式 </span>
 <link href="assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
 <link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
 <link href="assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
 <link href="assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css" id="style_color"/>
 <link href="assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
-<!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <!--头部结束-->
@@ -56,18 +55,14 @@
 			<div class="menu-toggler sidebar-toggler hide"></div>
 		</div>
 		<!--  LOGO 结束-->
-		<!-- 菜单显示开关响应开始 -->
 		<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"></a>
-		<!-- 菜单显示开关响应结束 -->
-		<!-- BEGIN TOP NAVIGATION MENU -->
 		<div class="top-menu">
 			<ul class="nav navbar-nav pull-right">
 				<!-- 通知下拉导航开始 -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
 				<li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
 					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-					<i class="icon-bell"></i>
-					<span class="badge badge-default"> 7 </span>
+						<i class="icon-bell"></i>
+						<span class="badge badge-default"> 7 </span>
 					</a>
 					<ul class="dropdown-menu">
 						<li class="external">
@@ -78,177 +73,175 @@
 							<ul class="dropdown-menu-list scroller" style="height: 250px;" data-handle-color="#637283">
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 刚刚 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-success">
-									<i class="fa fa-plus"></i>
-									</span>
-									New user registered. </span>
+										<span class="time"> 刚刚 </span>
+										<span class="details">
+											<span class="label label-sm label-icon label-warning">
+												<i class="fa fa-clock-o"></i>
+											</span>
+											这是条紧急任务!
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 3分前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									Server #12 overloaded. </span>
+										<span class="time"> 3分前 </span>
+										<span class="details">
+											<span class="label label-sm label-icon label-danger">
+												<i class="fa fa-bolt"></i>
+											</span>
+											这是条重要且紧急任务!
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 10分前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-warning">
-									<i class="fa fa-bell-o"></i>
-									</span>
-									Server #2 not responding. </span>
+										<span class="time"> 10分前 </span>
+										<span class="details">
+											<span class="label label-sm label-icon label-primary">
+												<i class="fa fa-bell-o"></i>
+											</span>
+											这是条普通任务！
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 1小时前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-info">
-									<i class="fa fa-bullhorn"></i>
-									</span>
-									Application error. </span>
+										<span class="time"> 1小时前 </span>
+										<span class="details">
+											<span class="label label-sm label-icon label-success">
+												<i class="fa fa-bell"></i>
+											</span>
+											这是条重要任务！
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 1天前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									Database overloaded 68%. </span>
+										<span class="time"> 1天前 </span>
+										<span class="details">
+											<span class="label label-sm label-icon label-primary">
+												<i class="fa fa-tasks"></i>
+											</span>
+											这是普通任务！
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 3天前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									A user IP blocked. </span>
+										<span class="time"> 3天前 </span>
+											<span class="details">
+												<span class="label label-sm label-icon label-warning">
+													<i class="fa fa-bolt"></i>
+											</span>
+											这是条紧急任务！
+											</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 1周前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-warning">
-									<i class="fa fa-bell-o"></i>
-									</span>
-									Storage Server #4 not responding dfdfdfd. </span>
+										<span class="time"> 1周前 </span>
+											<span class="details">
+												<span class="label label-sm label-icon label-info">
+													<i class="fa fa-bell-o"></i>
+												</span>
+												这是条重要任务！
+											</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 1个月前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-info">
-									<i class="fa fa-bullhorn"></i>
-									</span>
-									System Error. </span>
+										<span class="time"> 1个月前 </span>
+										<span class="details">
+											<span class="label label-sm label-icon label-info">
+											<i class="fa fa-bell-o"></i>
+										</span>
+										这是条重要任务！
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time"> 3个月前 </span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									Storage server failed. </span>
+										<span class="time"> 3个月前 </span>
+										<span class="details">
+											<span class="label label-sm label-icon label-danger">
+											<i class="fa fa-bolt"></i>
+										</span>
+										这是条重要且紧急任务！
+										</span>
 									</a>
 								</li>
 							</ul>
 						</li>
 					</ul>
 				</li>
-				<!-- END NOTIFICATION DROPDOWN -->
-				<!-- BEGIN INBOX DROPDOWN -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
 				<li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
 					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-					<i class="icon-envelope-open"></i>
-					<span class="badge badge-default">
-					4 </span>
+						<i class="icon-envelope-open"></i>
+						<span class="badge badge-default"> 4 </span>
 					</a>
 					<ul class="dropdown-menu">
 						<li class="external">
-							<h3>You have <span class="bold">7 New</span> Messages</h3>
+							<h3><span class="bold">7 </span> 消息</h3>
 							<a href="page_inbox.html"> 查看全部 </a>
 						</li>
 						<li>
 							<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
 								<li>
 									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src="assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Lisa Wong </span>
-									<span class="time"> 刚刚 </span>
-									</span>
-									<span class="message">
-									Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+										<span class="photo">
+											<img src="assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+											<span class="from"> 柴进 </span>
+											<span class="time"> 刚刚 </span>
+										</span>
+										<span class="message">Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
 									</a>
 								</li>
 								<li>
 									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src="assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Richard Doe </span>
-									<span class="time">16 mins </span>
-									</span>
-									<span class="message">
-									Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+										<span class="photo">
+											<img src="assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+											<span class="from"> 关胜 </span>
+											<span class="time"> 3分钟前 </span>
+										</span>
+										<span class="message">Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
 									</a>
 								</li>
 								<li>
 									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src="assets/admin/layout3/img/avatar1.jpg" class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from"> 宋江 </span>
-									<span class="time">2 hrs </span>
-									</span>
-									<span class="message">
-									Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+										<span class="photo">
+											<img src="assets/admin/layout3/img/avatar1.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+											<span class="from"> 宋江 </span>
+											<span class="time"> 10分钟前 </span>
+										</span>
+										<span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
 									</a>
 								</li>
 								<li>
 									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src="assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Lisa Wong </span>
-									<span class="time">40 mins </span>
-									</span>
-									<span class="message">
-									Vivamus sed auctor 40% nibh congue nibh... </span>
+										<span class="photo">
+											<img src="assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+											<span class="from"> 花荣 </span>
+											<span class="time">40 mins </span>
+										</span>
+										<span class="message"> Vivamus sed auctor 40% nibh congue nibh... </span>
 									</a>
 								</li>
 								<li>
 									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src="assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Richard Doe </span>
+										<span class="photo">
+											<img src="assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+											<span class="from">
+									鲁智深 </span>
 									<span class="time">46 mins </span>
 									</span>
 									<span class="message">
@@ -259,111 +252,118 @@
 						</li>
 					</ul>
 				</li>
-				<!-- END INBOX DROPDOWN -->
-				<!-- BEGIN TODO DROPDOWN -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
 				<li class="dropdown dropdown-extended dropdown-tasks" id="header_task_bar">
 					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 					<i class="icon-calendar"></i>
-					<span class="badge badge-default">
-					3 </span>
+					<span class="badge badge-default"> 3 </span>
 					</a>
 					<ul class="dropdown-menu extended tasks">
 						<li class="external">
-							<h3>You have <span class="bold">12 pending</span> tasks</h3>
+							<h3> <span class="bold"> 12 </span> 待完成日志 </h3>
 							<a href="page_todo.html"> 查看全部 </a>
 						</li>
 						<li>
 							<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
 								<li>
 									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">New release v1.2 </span>
-									<span class="percent">30%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">40% Complete</span></span>
-									</span>
+										<span class="task">
+											<span class="desc"> 内网新版本 v1.2.0.0规划 </span>
+											<span class="percent">30%</span>
+										</span>
+										<span class="progress">
+											<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+												<span class="sr-only">40% 已完成</span>
+											</span>
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Application deployment</span>
-									<span class="percent">65%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">65% Complete</span></span>
-									</span>
+										<span class="task">
+											<span class="desc"> 应用程序部署 </span>
+											<span class="percent">65%</span>
+										</span>
+										<span class="progress">
+											<span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+												<span class="sr-only"> 65% 已经完成</span>
+											</span>
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Mobile app release</span>
-									<span class="percent">98%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">98% Complete</span></span>
-									</span>
+										<span class="task">
+											<span class="desc"> 移动应用程序发布 </span>
+											<span class="percent"> 98% </span>
+										</span>
+										<span class="progress">
+											<span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+												<span class="sr-only">98% 已完成</span>
+											</span>
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Database migration</span>
-									<span class="percent">10%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">10% Complete</span></span>
-									</span>
+										<span class="task">
+											<span class="desc"> 数据库迁移 </span>
+											<span class="percent">10%</span>
+										</span>
+										<span class="progress">
+											<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+												<span class="sr-only">10% 已完成</span>
+											</span>
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Web server upgrade</span>
-									<span class="percent">58%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">58% Complete</span></span>
-									</span>
+										<span class="task">
+											<span class="desc"> Web服务器升级 </span>
+											<span class="percent"> 58% </span>
+										</span>
+										<span class="progress">
+											<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+												<span class="sr-only">58% 已完成</span>
+											</span>
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Mobile development</span>
-									<span class="percent">85%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">85% Complete</span></span>
-									</span>
+										<span class="task">
+											<span class="desc"> 移动开发 </span>
+											<span class="percent">85%</span>
+										</span>
+										<span class="progress">
+											<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+												<span class="sr-only">85% 已完成</span>
+											</span>
+										</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">New UI release</span>
-									<span class="percent">38%</span>
-									</span>
-									<span class="progress progress-striped">
-									<span style="width: 38%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">38% Complete</span></span>
-									</span>
+										<span class="task">
+											<span class="desc"> 新的UI版本 </span>
+											<span class="percent">38%</span>
+										</span>
+										<span class="progress progress-striped">
+											<span style="width: 38%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
+												<span class="sr-only"> 38% 已完成 </span>
+											</span>
+										</span>
 									</a>
 								</li>
 							</ul>
 						</li>
 					</ul>
 				</li>
-				<!-- END TODO DROPDOWN -->
-				<!-- BEGIN USER LOGIN DROPDOWN -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
 				<li class="dropdown dropdown-user">
 					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-					<img alt="" class="img-circle" src="assets/admin/layout/img/avatar3_small.jpg"/>
-					<span class="username username-hide-on-mobile"> 宋江 </span>
-					<i class="fa fa-angle-down"></i>
+						<img alt="" class="img-circle" src="assets/admin/layout/img/avatar3_small.jpg"/>
+						<span class="username username-hide-on-mobile"> 宋江 </span>
+						<i class="fa fa-angle-down"></i>
 					</a>
 					<ul class="dropdown-menu dropdown-menu-default">
 						<li>
@@ -397,15 +397,11 @@
 						</li>
 					</ul>
 				</li>
-				<!-- END USER LOGIN DROPDOWN -->
-				<!-- BEGIN QUICK SIDEBAR TOGGLER -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
 				<li class="dropdown dropdown-quick-sidebar-toggler">
 					<a href="javascript:;" class="dropdown-toggle">
-					<i class="icon-logout"></i>
+						<i class="icon-logout"></i>
 					</a>
 				</li>
-				<!-- END QUICK SIDEBAR TOGGLER -->
 			</ul>
 		</div>
 		<!-- END TOP NAVIGATION MENU -->
@@ -456,25 +452,22 @@
 				<li class="start active open">
 					<a href="javascript:;">
 					<i class="icon-home"></i>
-					<span class="title">Dashboard</span>
+					<span class="title">控制面板</span>
 					<span class="selected"></span>
 					<span class="arrow open"></span>
 					</a>
 					<ul class="sub-menu">
 						<li class="active">
 							<a href="index.html">
-							<i class="icon-bar-chart"></i>
-							Default Dashboard</a>
+							<i class="icon-bar-chart"></i> 默认面板一 </a>
 						</li>
 						<li>
 							<a href="index_2.html">
-							<i class="icon-bulb"></i>
-							New Dashboard #1</a>
+							<i class="icon-bulb"></i> 默认面板二 </a>
 						</li>
 						<li>
 							<a href="index_3.html">
-							<i class="icon-graph"></i>
-							New Dashboard #2</a>
+							<i class="icon-graph"></i> 默认面板三 </a>
 						</li>
 					</ul>
 				</li>
@@ -487,8 +480,7 @@
 					<ul class="sub-menu">
 						<li>
 							<a href="ecommerce_index.html">
-							<i class="icon-home"></i>
-							Dashboard</a>
+							<i class="icon-home"></i>控制面板</a>
 						</li>
 						<li>
 							<a href="ecommerce_orders.html">
@@ -1228,85 +1220,70 @@
 				</div>
 				<div class="theme-options">
 					<div class="theme-option theme-colors clearfix">
-						<span>
-						THEME COLOR </span>
+						<span> 页面皮肤 </span>
 						<ul>
-							<li class="color-default current tooltips" data-style="default" data-container="body" data-original-title="Default">
-							</li>
-							<li class="color-darkblue tooltips" data-style="darkblue" data-container="body" data-original-title="Dark Blue">
-							</li>
-							<li class="color-blue tooltips" data-style="blue" data-container="body" data-original-title="Blue">
-							</li>
-							<li class="color-grey tooltips" data-style="grey" data-container="body" data-original-title="Grey">
-							</li>
-							<li class="color-light tooltips" data-style="light" data-container="body" data-original-title="Light">
-							</li>
-							<li class="color-light2 tooltips" data-style="light2" data-container="body" data-html="true" data-original-title="Light 2">
-							</li>
+							<li class="color-default current tooltips" data-style="default" data-container="body" data-original-title="Default"></li>
+							<li class="color-darkblue tooltips" data-style="darkblue" data-container="body" data-original-title="Dark Blue"></li>
+							<li class="color-blue tooltips" data-style="blue" data-container="body" data-original-title="Blue"></li>
+							<li class="color-grey tooltips" data-style="grey" data-container="body" data-original-title="Grey"></li>
+							<li class="color-light tooltips" data-style="light" data-container="body" data-original-title="Light"></li>
+							<li class="color-light2 tooltips" data-style="light2" data-container="body" data-html="true" data-original-title="Light 2"></li>
 						</ul>
 					</div>
 					<div class="theme-option">
-						<span>
-						Layout </span>
+						<span> 布局 </span>
 						<select class="layout-option form-control input-sm">
-							<option value="fluid" selected="selected">Fluid</option>
-							<option value="boxed">Boxed</option>
+							<option value="fluid" selected="selected"> 全屏 </option>
+							<option value="boxed"> 规定宽度 </option>
 						</select>
 					</div>
 					<div class="theme-option">
-						<span>
-						Header </span>
+						<span> 页头 </span>
 						<select class="page-header-option form-control input-sm">
-							<option value="fixed" selected="selected">Fixed</option>
-							<option value="default">Default</option>
+							<option value="fixed" selected="selected"> 浮动 </option>
+							<option value="default"> 固定 </option>
 						</select>
 					</div>
 					<div class="theme-option">
-						<span>
-						Top Menu Dropdown</span>
+						<span> 顶部下拉菜单底色 </span>
 						<select class="page-header-top-dropdown-style-option form-control input-sm">
-							<option value="light" selected="selected">Light</option>
-							<option value="dark">Dark</option>
+							<option value="light" selected="selected"> 浅色 </option>
+							<option value="dark"> 深色 </option>
 						</select>
 					</div>
 					<div class="theme-option">
-						<span>
-						Sidebar Mode</span>
+						<span> 侧边栏模式 </span>
 						<select class="sidebar-option form-control input-sm">
-							<option value="fixed">Fixed</option>
-							<option value="default" selected="selected">Default</option>
+							<option value="fixed"> 浮动 </option>
+							<option value="default" selected="selected"> 固定 </option>
 						</select>
 					</div>
 					<div class="theme-option">
-						<span>
-						Sidebar Menu </span>
+						<span> 子导航模式 </span>
 						<select class="sidebar-menu-option form-control input-sm">
-							<option value="accordion" selected="selected">Accordion</option>
-							<option value="hover">Hover</option>
+							<option value="accordion" selected="selected"> 手风琴模式 </option>
+							<option value="hover"> 弹出模式 </option>
 						</select>
 					</div>
 					<div class="theme-option">
-						<span>
-						Sidebar Style </span>
+						<span> 侧边栏样式 </span>
 						<select class="sidebar-style-option form-control input-sm">
-							<option value="default" selected="selected">Default</option>
-							<option value="light">Light</option>
+							<option value="default" selected="selected"> 浅色 </option>
+							<option value="light"> 深色 </option>
 						</select>
 					</div>
 					<div class="theme-option">
-						<span>
-						Sidebar Position </span>
+						<span> 导航位置 </span>
 						<select class="sidebar-pos-option form-control input-sm">
-							<option value="left" selected="selected">Left</option>
-							<option value="right">Right</option>
+							<option value="left" selected="selected"> 居左 </option>
+							<option value="right"> 居右 </option>
 						</select>
 					</div>
 					<div class="theme-option">
-						<span>
-						Footer </span>
+						<span> 页尾 </span>
 						<select class="page-footer-option form-control input-sm">
-							<option value="fixed">Fixed</option>
-							<option value="default" selected="selected">Default</option>
+							<option value="fixed"> 浮动 </option>
+							<option value="default" selected="selected"> 固定 </option>
 						</select>
 					</div>
 				</div>
@@ -1320,9 +1297,7 @@
 						<a href="index.html"> 首页 </a>
 						<i class="fa fa-angle-right"></i>
 					</li>
-					<li>
-						<a href="#">Dashboard</a>
-					</li>
+					<li><a href="#"> 控制面板 </a></li>
 				</ul>
 				<div class="page-toolbar">
 					<div id="dashboard-report-range" class="pull-right tooltips btn btn-sm btn-default" data-container="body" data-placement="bottom" data-original-title="Change dashboard date range">
@@ -2520,7 +2495,7 @@
 														</div>
 														<div class="cont-col2">
 															<div class="desc">
-																 Database server #12 overloaded. Please fix the issue.
+																 Database 这是条重要且紧急任务! Please fix the issue.
 															</div>
 														</div>
 													</div>
@@ -2536,7 +2511,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-info">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2557,7 +2532,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-success">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2583,7 +2558,7 @@
 														</div>
 														<div class="cont-col2">
 															<div class="desc">
-																 New user registered.
+																 这是条紧急任务!
 															</div>
 														</div>
 													</div>
@@ -2621,7 +2596,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-default">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2642,7 +2617,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-warning">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2663,7 +2638,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-info">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2684,7 +2659,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-default">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2705,7 +2680,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-info">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2726,7 +2701,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-default">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2747,7 +2722,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-info">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2768,7 +2743,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-default">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2789,7 +2764,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-info">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2810,7 +2785,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-default">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -2831,7 +2806,7 @@
 													<div class="cont">
 														<div class="cont-col1">
 															<div class="label label-sm label-info">
-																<i class="fa fa-bullhorn"></i>
+																<i class="fa fa-bell-o"></i>
 															</div>
 														</div>
 														<div class="cont-col2">
@@ -3359,7 +3334,7 @@
 											<span class="arrow">
 											</span>
 											<a href="javascript:;" class="name">
-											Richard Doe </a>
+											鲁智深 </a>
 											<span class="datetime">
 											at 20:33 </span>
 											<span class="body">
@@ -3372,7 +3347,7 @@
 											<span class="arrow">
 											</span>
 											<a href="javascript:;" class="name">
-											Richard Doe </a>
+											鲁智深 </a>
 											<span class="datetime">
 											at 20:35 </span>
 											<span class="body">
@@ -3397,7 +3372,7 @@
 											<span class="arrow">
 											</span>
 											<a href="javascript:;" class="name">
-											Richard Doe </a>
+											鲁智深 </a>
 											<span class="datetime">
 											at 20:40 </span>
 											<span class="body">
@@ -3445,18 +3420,15 @@
 			<div class="nav-justified">
 				<ul class="nav nav-tabs nav-justified">
 					<li class="active">
-						<a href="#quick_sidebar_tab_1" data-toggle="tab">
-						Users <span class="badge badge-danger">2</span>
+						<a href="#quick_sidebar_tab_1" data-toggle="tab"> 用户 <span class="badge badge-danger">2</span>
 						</a>
 					</li>
 					<li>
-						<a href="#quick_sidebar_tab_2" data-toggle="tab">
-						Alerts <span class="badge badge-success">7</span>
+						<a href="#quick_sidebar_tab_2" data-toggle="tab"> 消息 <span class="badge badge-success">7</span>
 						</a>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
-						More<i class="fa fa-angle-down"></i>
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> 其它 <i class="fa fa-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu pull-right" role="menu">
 							<li>
@@ -3475,7 +3447,7 @@
 							</li>
 							<li>
 								<a href="#quick_sidebar_tab_3" data-toggle="tab">
-								<i class="icon-settings"></i> Settings </a>
+								<i class="icon-settings"></i> 消息配置 </a>
 							</li>
 						</ul>
 					</li>
@@ -3492,18 +3464,14 @@
 									<img class="media-object" src="assets/admin/layout/img/avatar3.jpg" alt="...">
 									<div class="media-body">
 										<h4 class="media-heading"> 宋江 </h4>
-										<div class="media-heading-sub">
-											 Project Manager
-										</div>
+										<div class="media-heading-sub"> 集团总裁 </div>
 									</div>
 								</li>
 								<li class="media">
 									<img class="media-object" src="assets/admin/layout/img/avatar1.jpg" alt="...">
 									<div class="media-body">
-										<h4 class="media-heading">Nick Larson</h4>
-										<div class="media-heading-sub">
-											 Art Director
-										</div>
+										<h4 class="media-heading"> 卢俊义 </h4>
+										<div class="media-heading-sub"> 总兵都头领 </div>
 									</div>
 								</li>
 								<li class="media">
@@ -3512,19 +3480,15 @@
 									</div>
 									<img class="media-object" src="assets/admin/layout/img/avatar4.jpg" alt="...">
 									<div class="media-body">
-										<h4 class="media-heading">Deon Hubert</h4>
-										<div class="media-heading-sub">
-											 CTO
-										</div>
+										<h4 class="media-heading"> 吴用 </h4>
+										<div class="media-heading-sub"> 机密军师 </div>
 									</div>
 								</li>
 								<li class="media">
 									<img class="media-object" src="assets/admin/layout/img/avatar2.jpg" alt="...">
 									<div class="media-body">
-										<h4 class="media-heading">Ella Wong</h4>
-										<div class="media-heading-sub">
-											 CEO
-										</div>
+										<h4 class="media-heading"> 朱武 </h4>
+										<div class="media-heading-sub"> 参赞军务 </div>
 									</div>
 								</li>
 							</ul>
@@ -3611,7 +3575,7 @@
 						<div class="page-quick-sidebar-item">
 							<div class="page-quick-sidebar-chat-user">
 								<div class="page-quick-sidebar-nav">
-									<a href="javascript:;" class="page-quick-sidebar-back-to-list"><i class="icon-arrow-left"></i>Back</a>
+									<a href="javascript:;" class="page-quick-sidebar-back-to-list"><i class="icon-arrow-left"></i> 返回 </a>
 								</div>
 								<div class="page-quick-sidebar-chat-user-messages">
 									<div class="post out">
@@ -3620,8 +3584,7 @@
 											<span class="arrow"></span>
 											<a href="javascript:;" class="name"> 宋江 </a>
 											<span class="datetime">20:15</span>
-											<span class="body">
-											When could you send me the report ? </span>
+											<span class="body"> 你什么时候能把报告给我？ </span>
 										</div>
 									</div>
 									<div class="post in">
@@ -3630,8 +3593,7 @@
 											<span class="arrow"></span>
 											<a href="javascript:;" class="name">Ella Wong</a>
 											<span class="datetime">20:15</span>
-											<span class="body">
-											Its almost done. I will be sending it shortly </span>
+											<span class="body"> 马上完成。我会很快发送给你 </span>
 										</div>
 									</div>
 									<div class="post out">
@@ -3640,8 +3602,7 @@
 											<span class="arrow"></span>
 											<a href="javascript:;" class="name"> 宋江 </a>
 											<span class="datetime">20:15</span>
-											<span class="body">
-											Alright. Thanks! :) </span>
+											<span class="body"> 好的！ </span>
 										</div>
 									</div>
 									<div class="post in">
@@ -3718,7 +3679,7 @@
 					</div>
 					<div class="tab-pane page-quick-sidebar-alerts" id="quick_sidebar_tab_2">
 						<div class="page-quick-sidebar-alerts-list">
-							<h3 class="list-heading">General</h3>
+							<h3 class="list-heading"> 普通消息 </h3>
 							<ul class="feeds list-items">
 								<li>
 									<div class="col1">
@@ -3876,7 +3837,7 @@
 									</a>
 								</li>
 							</ul>
-							<h3 class="list-heading">System</h3>
+							<h3 class="list-heading"> 系统消息 </h3>
 							<ul class="feeds list-items">
 								<li>
 									<div class="col1">
