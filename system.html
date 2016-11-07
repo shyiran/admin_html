@@ -6,7 +6,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8"/>
-	<title> 首页 </title>
+	<title> 系统设置 </title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="width=device-width, initial-scale=1" name="viewport"/>
 	<meta content="" name="description"/>
@@ -43,7 +43,6 @@
 		<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"></a>
 		<div class="top-menu">
 			<ul class="nav navbar-nav pull-right">
-				
 				<li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
 					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 						<i class="icon-bell"></i>
@@ -405,7 +404,7 @@
 						</a>
 					</form>
 				</li>
-				<li class="start active open">
+				<li>
 					<a href="javascript:;">
 						<i class="icon-home"></i>
 						<span class="title"> 个人办公 </span>
@@ -564,11 +563,12 @@
 						</li>
 					</ul>
 				</li>
-				<li class="last">
+				<li class="start active open last">
 					<a href="javascript:;">
 						<i class="icon-pointer"></i>
 						<span class="title"> 系统设置 </span>
-						<span class="arrow "></span>
+						<span class="selected"></span>
+						<span class="arrow open"></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
@@ -696,17 +696,188 @@
 					</div>
 				</div>
 			</div>
-			<h3 class="page-title"> 首页 <small> 首页 </small></h3>
+			<h3 class="page-title"> 系统设置 <small> 系统设置 </small></h3>
 			<div class="page-bar">
 				<ul class="page-breadcrumb">
 					<li>
 						<i class="fa fa-home"></i>
-						<a href="index.html"> 首页 </a>
+						<a href="index.html"> 系统设置 </a>
 						<i class="fa fa-angle-right"></i>
 					</li>
 					<li><a href="#"> 控制面板 </a></li>
 				</ul>
 				<div class="page-toolbar"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="portlet">
+						<div class="portlet-body">
+							<div class="tabbable">
+								<ul class="nav nav-tabs nav-tabs-lg">
+									<li class="active">
+										<a href="#tab_1" data-toggle="tab"> 基本信息 </a>
+									</li>
+									<li>
+										<a href="#tab_2" data-toggle="tab"> 组织机构 <span class="badge badge-success"> 4 </span></a>
+									</li>
+									<li>
+										<a href="#tab_3" data-toggle="tab"> 职位管理 </a>
+									</li>
+									<li>
+										<a href="#tab_4" data-toggle="tab"> 地区管理 <span class="badge badge-danger"> 2 </span></a>
+									</li>
+									<li>
+										<a href="#tab_5" data-toggle="tab"> 岗位管理 </a>
+									</li>
+									<li>
+										<a href="#tab_6" data-toggle="tab"> 短信配置 </a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="tab_1">
+										<form action="#" class="form-horizontal form-row-sepe">
+											<div class="form-body">
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 系统名称 : </label>
+													<div class="col-md-10">
+														<input type="text" class="form-control input-inline input-medium" placeholder="系统名称">
+														<span class="help-inline"> 系统名称. </span>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 系统地址 : </label>
+													<div class="col-md-10">
+														<input type="text" class="form-control input-inline input-medium" placeholder="系统地址">
+														<span class="help-inline"> 系统地址. </span>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 版权信息 : </label>
+													<div class="col-md-10">
+														<input type="text" class="form-control input-inline input-medium" placeholder="版权信息">
+														<span class="help-inline"> 版权信息. </span>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 风格设置： </label>
+													<div class="col-md-10 radio-list">
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadiosd"  value="option1" checked> 风格 1
+														</label>
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadiosd"  value="option2"> 风格 2
+														</label>
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadiosd"  value="option3"> 风格3
+														</label>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 系统开关： </label>
+													<div class="col-md-10 radio-list">
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadios"  value="option1" checked> 开启
+														</label>
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadios"  value="option2"> 关闭
+														</label>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 关闭原因：</label>
+													<div class="col-md-10">
+														<textarea class="form-control" rows="3"></textarea>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 允许上传附件大小 : </label>
+													<div class="col-md-10">
+														<input type="text" class="form-control input-inline input-medium" placeholder="允许上传附件大小">
+														<span class="help-inline"> KB </span>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 上传文件类型: </label>
+													<div class="col-md-10">
+														<textarea class="form-control" rows="3"></textarea>
+													</div>
+												</div>
+											</div>
+											<div class="form-actions">
+												<div class="row" style="text-align: center">
+													<button type="submit" class="btn purple"><i class="fa fa-check"></i> 保存 </button>
+												</div>
+											</div>
+										</form>
+									</div>
+									<div class="tab-pane" id="tab_2">
+										s2
+									</div>
+									<div class="tab-pane" id="tab_3">
+										s3
+									</div>
+									<div class="tab-pane" id="tab_4">
+										s4
+									</div>
+									<div class="tab-pane" id="tab_5">
+										s5
+									</div>
+									<div class="tab-pane" id="tab_6">
+										<form action="#" class="form-horizontal form-row-sepe">
+											<div class="form-body">
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 短息服务器 : </label>
+													<div class="col-md-10">
+														<input type="text" class="form-control input-inline input-medium" placeholder="短息服务器">
+														<span class="help-inline"> 短息服务器. </span>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 短信参数 : </label>
+													<div class="col-md-10">
+														<input type="text" class="form-control input-inline input-medium" placeholder="短信参数">
+														<span class="help-inline"> 短信参数. </span>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 成功返回标示：</label>
+													<div class="col-md-10">
+														<textarea class="form-control" rows="3"></textarea>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 短息模板：</label>
+													<div class="col-md-10">
+														<textarea class="form-control" rows="3"></textarea>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-2 control-label"> 发送方式： </label>
+													<div class="col-md-10 radio-list">
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadiosd"  value="option1" checked> 自动选择
+														</label>
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadiosd"  value="option2"> POST
+														</label>
+														<label class="radio-inline">
+															<input type="radio" name="optionsRadiosd"  value="option3"> GET
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="form-actions">
+												<div class="row" style="text-align: center">
+													<button type="submit" class="btn purple"><i class="fa fa-check"></i> 保存 </button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>

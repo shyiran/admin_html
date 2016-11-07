@@ -15,10 +15,7 @@ body.page-md {
   background: #f3f5f9;
 }
 
-/*********** 
-Page Header
-***********/
-/* Header search bar, toggler button & top menu */
+
 .page-header.navbar {
   background: #3B3F51;
   border-bottom: 1px solid #e9ecf3;

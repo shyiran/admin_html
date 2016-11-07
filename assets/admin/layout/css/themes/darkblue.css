@@ -1,7 +1,3 @@
-/*********** 
-Page Header
-***********/
-/* Header search bar, toggler button & top menu */
 .page-header.navbar {
   background-color: #2b3643;
   /* Top notification menu/bar */
@@ -62,9 +58,7 @@ Page Header
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu .dropdown-menu-list > li > a:hover {
   background: #f8f9fa;
 }
-.page-header.navbar .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li > a .time {
-  background: #f1f1f1;
-}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li > a .time {  background: #f1f1f1;  color: #000000;  }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li > a:hover .time {
   background: #e4e4e4;
 }
