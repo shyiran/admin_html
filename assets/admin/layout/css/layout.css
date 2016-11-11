@@ -361,13 +361,7 @@ Page Header
   font-size: 13px;
   font-weight: 600;
 }
-.page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .subject .time {
-  font-size: 12px;
-  font-weight: 400;
-  opacity: 0.5 ;
-  filter: alpha(opacity=50) ;
-  float: right;
-}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .subject .time {  color: #000000;  background: #cccccc;  padding: 0  5px;  font-size: 12px;  font-weight: 400;  opacity: 0.5 ;  filter: alpha(opacity=50) ;  float: right;  }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .message {
   display: block !important;
   font-size: 12px;

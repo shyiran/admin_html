@@ -49,7 +49,7 @@ var ComponentsDropdowns = function () {
         });
 
         $("#select2_sample5").select2({
-            tags: ["red", "green", "blue", "yellow", "pink"]
+            tags: ["待办","在办","办结" ]
         });
 
 
@@ -164,7 +164,7 @@ var ComponentsDropdowns = function () {
         });
 
         $("#select2_sample_modal_5").select2({
-            tags: ["red", "green", "blue", "yellow", "pink"]
+            tags: ["待办","在办","办结"]
         });
 
 

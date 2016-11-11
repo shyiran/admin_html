@@ -1,24 +1,4 @@
-/*********************************
- METRONIC ROUNDED STYLE COMPONENTS 
-*********************************/
-/***
-General reset
-***/
-/* Set default body */
-body {
-  color: #333333;
-  font-family: "Open Sans", sans-serif;
-  padding: 0px !important;
-  margin: 0px !important;
-  font-size: 13px;
-  direction: ltr;
-}
-
-/*
- Internet Explorer 10 doesn't differentiate device width from viewport width, and thus doesn't 
- properly apply the media queries in Bootstrap's CSS. To address this, 
- you can optionally include the following CSS and JavaScript to work around this problem until Microsoft issues a fix.
-*/
+body {color: #333333;font-family: "微软雅黑","Open Sans", sans-serif;  padding: 0px !important;  margin: 0px !important;  font-size: 13px;  direction: ltr;}
 @-webkit-viewport {
   width: device-width;
 }
@@ -920,7 +900,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "΢���ź�","Open Sans", sans-serif;
   font-weight: 300;
 }
 
@@ -1131,60 +1111,19 @@ a:hover {
   text-align: right;
 }
 
-/* Margin and padding utilities */
-.no-space {
-  margin: 0px !important;
-  padding: 0px !important;
-}
-
-.no-margin {
-  margin: 0;
-}
-
-.margin-bottom-5 {
-  margin-bottom: 5px;
-}
-
-.margin-bottom-10 {
-  margin-bottom: 10px !important;
-}
-
-.margin-top-10 {
-  margin-top: 10px !important;
-}
-
-.margin-top-15 {
-  margin-top: 15px !important;
-}
-
-.margin-bottom-15 {
-  margin-bottom: 15px !important;
-}
-
-.margin-bottom-20 {
-  margin-bottom: 20px !important;
-}
-
-.margin-top-20 {
-  margin-top: 20px !important;
-}
-
-.margin-bottom-25 {
-  margin-bottom: 25px !important;
-}
-
-.margin-bottom-30 {
-  margin-bottom: 30px !important;
-}
-
-.margin-bottom-40 {
-  margin-bottom: 40px !important;
-}
-
-.margin-right-10 {
-  margin-right: 10px !important;
-}
-
+.no-space {  margin: 0px !important;  padding: 0px !important;  }
+.no-margin {  margin: 0;  }
+.margin-bottom-5 {  margin-bottom: 5px;  }
+.margin-bottom-10 {  margin-bottom: 10px !important;  }
+.margin-top-10 {  margin-top: 10px !important;  }
+.margin-top-15 {  margin-top: 15px !important;  }
+.margin-bottom-15 {  margin-bottom: 15px !important;  }
+.margin-bottom-20 {  margin-bottom: 20px !important;  }
+.margin-top-20 {  margin-top: 20px !important;  }
+.margin-bottom-25 {  margin-bottom: 25px !important;  }
+.margin-bottom-30 {  margin-bottom: 30px !important;  }
+.margin-bottom-40 {  margin-bottom: 40px !important;  }
+.margin-right-10 {  margin-right: 10px !important;  }
 /* IE8 & IE9 mode utilities */
 .visible-ie8 {
   display: none;

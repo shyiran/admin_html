@@ -1,8 +1,8 @@
 .page-header.navbar {
   background-color: #4f5a67;
-  /* Top notification menu/bar */
-  /* Header seaech box */
-  /* Toggler button for sidebar expand/collapse and responsive sidebar menu */
+  
+ 
+  
 }
 .page-header.navbar .top-menu .navbar-nav {
   /* Extended Dropdowns */
@@ -18,6 +18,7 @@
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle .badge.badge-default {
   background-color: #31c7b2;
+  background-color: #ff0000 ;
   color: #ffffff;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle:hover {
@@ -64,6 +65,7 @@
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-toggle > .circle {
   background-color: #31c7b2;
+  background-color: #ff0000 ;
   color: #ffffff;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-toggle > .corner {
@@ -192,6 +194,7 @@
 .page-header.navbar .hor-menu .navbar-nav > li.current > a {
   color: white;
   background: #31c7b2 !important;
+  background: #ff0000 !important;
 }
 .page-header.navbar .hor-menu .navbar-nav > li.active > a > i,
 .page-header.navbar .hor-menu .navbar-nav > li.active > a > i, .page-header.navbar .hor-menu .navbar-nav > li.current > a > i,
@@ -270,6 +273,7 @@
 .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.current > a:hover {
   color: white;
   background: #31c7b2;
+  background: #ff0000;
 }
 .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.active > a > i,
 .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.active > a:hover > i, .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.current > a > i,
@@ -368,11 +372,12 @@
 .page-sidebar .page-sidebar-menu > li.open > a > .arrow:before,
 .page-sidebar .page-sidebar-menu > li.open > a > .arrow.open:before {
   color: #aab3bb;
+  background: #000000;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a,
 .page-sidebar .page-sidebar-menu > li.active > a,
 .page-sidebar .page-sidebar-menu > li.active.open > a {
-  background: #31c7b2;
+  background: #000000;
   border-top-color: transparent;
   color: #ffffff;
 }
@@ -380,6 +385,7 @@
 .page-sidebar .page-sidebar-menu > li.active > a:hover,
 .page-sidebar .page-sidebar-menu > li.active.open > a:hover {
   background: #31c7b2;
+  background: #ff0000 ;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > i,
 .page-sidebar .page-sidebar-menu > li.active > a > i,

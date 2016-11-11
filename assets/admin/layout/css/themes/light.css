@@ -1,8 +1,8 @@
 .page-header.navbar {
   background-color: #747F8C;
-  /* Top notification menu/bar */
-  /* Header seaech box */
-  /* Toggler button for sidebar expand/collapse and responsive sidebar menu */
+  
+ 
+  
 }
 .page-header.navbar .top-menu .navbar-nav {
   /* Extended Dropdowns */
@@ -372,7 +372,7 @@
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a,
 .page-sidebar .page-sidebar-menu > li.active > a,
 .page-sidebar .page-sidebar-menu > li.active.open > a {
-  background: #3FD5C0;
+  background: #ff0000;
   border-top-color: transparent;
   color: #ffffff;
 }

@@ -1,25 +1,4 @@
-div,
-input,
-select,
-textarea,
-span,
-img,
-table,
-label,
-td,
-th,
-p,
-a,
-button,
-ul,
-code,
-pre,
-li {
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  border-radius: 0 !important;
-}
-
+div, input, select, textarea, span, img, table, label, td, th, p, a, button, ul, code, pre, li {  -webkit-border-radius: 0 !important;  -moz-border-radius: 0 !important;  border-radius: 0 !important;  }
 /* except below bootstrap elements */
 .img-circle {
   border-radius: 50% !important;
@@ -28,20 +7,8 @@ li {
 .img-rounded {
   border-radius: 6px !important;
 }
-
-/***
-General reset
-***/
 /* Set default body */
-body {
-  color: #333333;
-  font-family: "Open Sans", sans-serif;
-  padding: 0px !important;
-  margin: 0px !important;
-  font-size: 13px;
-  direction: ltr;
-}
-
+body {  color: #333333;  font-family: "微软雅黑","Open Sans", sans-serif;  padding: 0px !important;  margin: 0px !important;  font-size: 13px;  direction: ltr;  }
 /*
  Internet Explorer 10 doesn't differentiate device width from viewport width, and thus doesn't 
  properly apply the media queries in Bootstrap's CSS. To address this, 
@@ -942,16 +909,7 @@ body {
 General typography
 ***/
 /* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-}
-
+h1,h2,h3,h4,h5,h6 {  font-family: "微软雅黑","Open Sans", sans-serif;  font-weight: 300;}
 h1 {
   font-size: 33px;
 }
@@ -1159,59 +1117,20 @@ a:hover {
   text-align: right;
 }
 
-/* Margin and padding utilities */
-.no-space {
-  margin: 0px !important;
-  padding: 0px !important;
-}
+.no-space {  margin: 0px !important;  padding: 0px !important;  }
+.no-margin {  margin: 0;  }
+.margin-bottom-5 {  margin-bottom: 5px;  }
+.margin-bottom-10 {  margin-bottom: 10px !important;  }
+.margin-top-10 {  margin-top: 10px !important;  }
+.margin-top-15 {  margin-top: 15px !important;  }
+.margin-top-20 {  margin-top: 20px !important;  }
+.margin-bottom-15 {  margin-bottom: 15px !important;  }
+.margin-bottom-20 {  margin-bottom: 20px !important;  }
 
-.no-margin {
-  margin: 0;
-}
-
-.margin-bottom-5 {
-  margin-bottom: 5px;
-}
-
-.margin-bottom-10 {
-  margin-bottom: 10px !important;
-}
-
-.margin-top-10 {
-  margin-top: 10px !important;
-}
-
-.margin-top-15 {
-  margin-top: 15px !important;
-}
-
-.margin-bottom-15 {
-  margin-bottom: 15px !important;
-}
-
-.margin-bottom-20 {
-  margin-bottom: 20px !important;
-}
-
-.margin-top-20 {
-  margin-top: 20px !important;
-}
-
-.margin-bottom-25 {
-  margin-bottom: 25px !important;
-}
-
-.margin-bottom-30 {
-  margin-bottom: 30px !important;
-}
-
-.margin-bottom-40 {
-  margin-bottom: 40px !important;
-}
-
-.margin-right-10 {
-  margin-right: 10px !important;
-}
+.margin-bottom-25 {  margin-bottom: 25px !important;  }
+.margin-bottom-30 {  margin-bottom: 30px !important;  }
+.margin-bottom-40 {  margin-bottom: 40px !important;  }
+.margin-right-10 {  margin-right: 10px !important;  }
 
 /* IE8 & IE9 mode utilities */
 .visible-ie8 {
@@ -2070,28 +1989,11 @@ Customized Bootstrap Buttons
   background-color: #fff;
 }
 
-.btn-success {
-  color: #fff;
-  background-color: #45B6AF;
-  border-color: #3ea49d;
-}
-.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
-  color: #fff;
-  background-color: #3b9c96;
-  border-color: #307f7a;
-}
-.open .btn-success.dropdown-toggle {
-  color: #fff;
-  background-color: #3b9c96;
-  border-color: #307f7a;
-}
-.btn-success:active, .btn-success.active {
-  background-image: none;
-  background-color: #348a84;
-}
-.btn-success:active:hover, .btn-success.active:hover {
-  background-color: #37918b;
-}
+.btn-success {  color: #fff;  background-color: #45B6AF;  border-color: #3ea49d;  }
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {  color: #fff;  background-color: #3b9c96;  border-color: #307f7a;  }
+.open .btn-success.dropdown-toggle {  color: #fff;  background-color: #3b9c96;  border-color: #307f7a;  }
+.btn-success:active, .btn-success.active {  background-image: none;  background-color: #348a84;  }
+.btn-success:active:hover, .btn-success.active:hover {  background-color: #37918b;  }
 .open .btn-success.dropdown-toggle {
   background-image: none;
 }
@@ -2221,23 +2123,10 @@ Customized Bootstrap Buttons
   font-size: 18px;
 }
 
-.btn-sm,
-.btn-xs {
-  padding: 4px 10px 5px 10px;
-  font-size: 13px;
-  line-height: 1.5;
-}
-.btn-sm > i,
-.btn-xs > i {
-  font-size: 13px;
-}
-
-.btn-xs {
-  padding: 1px 5px;
-}
-.btn-xs > i {
-  font-size: 12px;
-}
+.btn-sm, .btn-xs {  padding: 4px 10px 5px 10px;  font-size: 13px;  line-height: 1.5;  }
+.btn-sm > i, .btn-xs > i {  font-size: 13px;  }
+.btn-xs {  padding: 1px 5px;  }
+.btn-xs > i {  font-size: 12px; line-height: 16px;  }
 
 /* Small button in button group */
 .btn-group .input-sm .btn-default {
@@ -4065,51 +3954,18 @@ Customized Bootstrap Modal
 .page-portlet-fullscreen .modal {
   z-index: 10060;
 }
-.modal .modal-header {
-  border-bottom: 1px solid #EFEFEF;
-}
-.modal .modal-header h3 {
-  font-weight: 300;
-}
-.modal .modal-header .close {
-  margin-top: 0px !important;
-}
-.modal.draggable-modal .modal-header {
-  cursor: move;
-}
-.modal .modal-dialog {
-  z-index: 10051;
-}
-.modal > .loading {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -22px;
-  margin-left: -22px;
-}
-.modal.in .page-loading {
-  display: none;
-}
-
-.modal-open {
-  overflow-y: auto !important;
-}
-
-.modal-open-noscroll {
-  overflow-y: hidden !important;
-}
-
-.modal-backdrop {
-  border: 0;
-  outline: none;
-  z-index: 10049;
-}
-.page-portlet-fullscreen .modal-backdrop {
-  z-index: 10059;
-}
-.modal-backdrop, .modal-backdrop.fade.in {
-  background-color: #333 !important;
-}
+.modal .modal-header {  border-bottom: 1px solid #EFEFEF;  background: #cccccc;  }
+.modal .modal-header h3 {  font-weight: 300;  }
+.modal .modal-header .close {  margin-top:6px !important;  }
+.modal.draggable-modal .modal-header {  cursor: move;  }
+.modal .modal-dialog {  z-index: 10051;  }
+.modal > .loading {  position: absolute;  top: 50%;  left: 50%;  margin-top: -22px;  margin-left: -22px; }
+.modal.in .page-loading {  display: none;  }
+.modal-open {  overflow-y: auto !important;  }
+.modal-open-noscroll {  overflow-y: hidden !important;  }
+.modal-backdrop {  border: 0;  outline: none;  z-index: 10049;  }
+.page-portlet-fullscreen .modal-backdrop {  z-index: 10059;  }
+.modal-backdrop, .modal-backdrop.fade.in {  background-color: #333 !important;  }
 
 /* Full width modal */
 .modal-full.modal-dialog {

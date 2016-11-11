@@ -1,8 +1,8 @@
 .page-header.navbar {
   background-color: #1f1f1f;
-  /* Top notification menu/bar */
-  /* Header seaech box */
-  /* Toggler button for sidebar expand/collapse and responsive sidebar menu */
+  
+ 
+  
 }
 .page-header.navbar .top-menu .navbar-nav {
   /* Extended Dropdowns */
@@ -18,6 +18,8 @@
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle .badge.badge-default {
   background-color: #d64635;
+  background: #1f1f1f;
+  /*songhao*/
   color: #ffffff;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle:hover {
@@ -192,6 +194,8 @@
 .page-header.navbar .hor-menu .navbar-nav > li.current > a {
   color: white;
   background: #d64635 !important;
+  background: #1f1f1f;
+  /*songhao*/
 }
 .page-header.navbar .hor-menu .navbar-nav > li.active > a > i,
 .page-header.navbar .hor-menu .navbar-nav > li.active > a > i, .page-header.navbar .hor-menu .navbar-nav > li.current > a > i,
@@ -270,6 +274,8 @@
 .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.current > a:hover {
   color: white;
   background: #d64635;
+  background: #1f1f1f;
+ /*songhao*/
 }
 .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.active > a > i,
 .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.active > a:hover > i, .page-header.navbar .hor-menu.hor-menu-light .navbar-nav > li.current > a > i,
@@ -372,7 +378,8 @@
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a,
 .page-sidebar .page-sidebar-menu > li.active > a,
 .page-sidebar .page-sidebar-menu > li.active.open > a {
-  background: #d64635;
+  background: #d64635;/*songhao*/
+  background: #1f1f1f;
   border-top-color: transparent;
   color: #ffffff;
 }
@@ -380,6 +387,8 @@
 .page-sidebar .page-sidebar-menu > li.active > a:hover,
 .page-sidebar .page-sidebar-menu > li.active.open > a:hover {
   background: #d64635;
+  background: #1f1f1f;
+  /*songhao*/
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > i,
 .page-sidebar .page-sidebar-menu > li.active > a > i,

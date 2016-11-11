@@ -1,8 +1,8 @@
 .page-header.navbar {
   background-color: #2b3643;
-  /* Top notification menu/bar */
-  /* Header seaech box */
-  /* Toggler button for sidebar expand/collapse and responsive sidebar menu */
+  
+ 
+  
 }
 .page-header.navbar .top-menu .navbar-nav {
   /* Extended Dropdowns */
@@ -373,6 +373,7 @@
 .page-sidebar .page-sidebar-menu > li.active > a,
 .page-sidebar .page-sidebar-menu > li.active.open > a {
   background: #1caf9a;
+  background: #1f1f1f;
   border-top-color: transparent;
   color: #ffffff;
 }
