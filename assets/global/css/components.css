@@ -5732,6 +5732,7 @@ Light Table
 Customized Bootstrap Tabs 
 ***/
 /* Tabs and pills */
+.nav > li > a {  padding: 8px 10px;  }
 .nav-tabs,
 .nav-pills {
   margin-bottom: 10px;
