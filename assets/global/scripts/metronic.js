@@ -1,6 +1,6 @@
 /**
-Core script to handle the entire theme and core functions
-**/
+ 核心脚本来处理整个主题和核心功能
+ **/
 var Metronic = function() {
 
     // IE mode
@@ -506,7 +506,6 @@ var Metronic = function() {
             });
         }
     };
-
     // Handle Select2 Dropdowns
     var handleSelect2 = function() {
         if ($().select2) {
@@ -516,11 +515,8 @@ var Metronic = function() {
             });
         }
     };
-
     //* END:CORE HANDLERS *//
-
     return {
-
         //main function to initiate the theme
         init: function() {
             //IMPORTANT!!!: Do not modify the core handlers call order.
@@ -546,11 +542,9 @@ var Metronic = function() {
             handleAccordions(); //handles accordions 
             handleModals(); // handle modals
             handleBootstrapConfirmation(); // handle bootstrap confirmations
-
             // Hacks
             handleFixInputPlaceholderForIE(); //IE8 & IE9 input placeholder issue fix
         },
-
         //main function to initiate core javascript after ajax complete
         initAjax: function() {
             handleUniform(); // handles custom radio & checkboxes     
@@ -566,27 +560,22 @@ var Metronic = function() {
             handleAccordions(); //handles accordions 
             handleBootstrapConfirmation(); // handle bootstrap confirmations
         },
-
         //init main components 
         initComponents: function() {
             this.initAjax();
         },
-
         //public function to remember last opened popover that needs to be closed on click
         setLastPopedPopover: function(el) {
             lastPopedPopover = el;
         },
-
         //public function to add callback a function which will be called on window resize
         addResizeHandler: function(func) {
             resizeHandlers.push(func);
         },
-
         //public functon to call _runresizeHandlers
         runResizeHandlers: function() {
             _runResizeHandlers();
         },
-
         // wrMetronicer function to scroll(focus) to an element
         scrollTo: function(el, offeset) {
             var pos = (el && el.size() > 0) ? el.offset().top : 0;
@@ -602,7 +591,6 @@ var Metronic = function() {
                 scrollTop: pos
             }, 'slow');
         },
-
         initSlimScroll: function(el) {
             $(el).each(function() {
                 if ($(this).attr("data-initialized")) {
@@ -633,7 +621,6 @@ var Metronic = function() {
                 $(this).attr("data-initialized", "1");
             });
         },
-
         destroySlimScroll: function(el) {
             $(el).each(function() {
                 if ($(this).attr("data-initialized") === "1") { // destroy existing instance before updating the height
@@ -674,12 +661,10 @@ var Metronic = function() {
                 }
             });
         },
-
-        // function to scroll to the top
+        // 滚动到顶部
         scrollTop: function() {
             Metronic.scrollTo();
         },
-
         // wrMetronicer function to  block element(indicate loading)
         blockUI: function(options) {
             options = $.extend(true, {}, options);
@@ -762,7 +747,6 @@ var Metronic = function() {
         },
 
         alert: function(options) {
-
             options = $.extend(true, {
                 container: "", // alerts parent container(by default placed after the page breadcrumbs)
                 place: "append", // "append" or "prepend" in container 

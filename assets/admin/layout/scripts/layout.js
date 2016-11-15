@@ -1,18 +1,13 @@
 /**
-Core script to handle the entire theme and core functions
-**/
+ * 核心脚本来处理整个主题和核心功能
+ **/
 var Layout = function () {
-
     var layoutImgPath = 'admin/layout/img/';
-
     var layoutCssPath = 'admin/layout/css/';
-
     var resBreakpointMd = Metronic.getResponsiveBreakpoint('md');
-
-    //* BEGIN:CORE HANDLERS *//
-    // this function handles responsive layout on screen size resize or mobile device rotate.
-
-    // Set proper height for sidebar and content. The content and sidebar height must be synced always.
+    //* 核心处理器开始 *//
+    // 处理屏幕大小调整大小或移动设备旋转的响应性布局.
+    // 在侧边栏和内容设置适当的高度。内容和工具条高度必须同步
     var handleSidebarAndContentHeight = function () {
         var content = $('.page-content');
         var sidebar = $('.page-sidebar');
@@ -47,13 +42,10 @@ var Layout = function () {
             content.attr('style', 'min-height:' + height + 'px');
         }
     };
-
-    // Handle sidebar menu links
+    // 侧边栏菜单链接
     var handleSidebarMenuActiveLink = function(mode, el) {
-        var url = location.hash.toLowerCase();    
-
+        var url = location.hash.toLowerCase();
         var menu = $('.page-sidebar-menu');
-
         if (mode === 'click' || mode === 'set') {
             el = $(el);
         } else if (mode === 'match') {
@@ -66,22 +58,17 @@ var Layout = function () {
                 }
             });
         }
-
         if (!el || el.size() == 0) {
             return;
         }
-
         if (el.attr('href').toLowerCase() === 'javascript:;' || el.attr('href').toLowerCase() === '#') {
             return;
-        }        
-
+        }
         var slideSpeed = parseInt(menu.data("slide-speed"));
         var keepExpand = menu.data("keep-expanded");
-
-        // disable active states
+        // 禁用active状态
         menu.find('li.active').removeClass('active');
         menu.find('li > a > .selected').remove();
-
         if (menu.hasClass('page-sidebar-menu-hover-submenu') === false) {
             menu.find('li.open').each(function(){
                 if ($(this).children('.sub-menu').size() === 0) {
@@ -92,7 +79,6 @@ var Layout = function () {
         } else {
              menu.find('li.open').removeClass('open');
         }
-
         el.parents('li').each(function () {
             $(this).addClass('active');
             $(this).find('> a > span.arrow').addClass('open');
@@ -105,35 +91,29 @@ var Layout = function () {
                 $(this).addClass('open');
             }
         });
-
         if (mode === 'click') {
             if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // close the menu on mobile view while laoding a page 
                 $('.page-header .responsive-toggler').click();
             }
         }
     };
-
-    // Handle sidebar menu
+    // 侧边栏菜单
     var handleSidebarMenu = function () {
-        // handle sidebar link click
+        // 侧边栏链接
         $('.page-sidebar').on('click', 'li > a', function (e) {
             var hasSubMenu = $(this).next().hasClass('sub-menu');
-
             if (Metronic.getViewPort().width >= resBreakpointMd && $(this).parents('.page-sidebar-menu-hover-submenu').size() === 1) { // exit of hover sidebar menu
                 return;
             }
-
             if (hasSubMenu === false) {
                 if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // close the menu on mobile view while laoding a page 
                     $('.page-header .responsive-toggler').click();
                 }
                 return;
             }
-
             if ($(this).next().hasClass('sub-menu always-open')) {
                 return;
             }
-
             var parent = $(this).parent().parent();
             var the = $(this);
             var menu = $('.page-sidebar-menu');
@@ -148,9 +128,7 @@ var Layout = function () {
                 parent.children('li.open').children('.sub-menu:not(.always-open)').slideUp(slideSpeed);
                 parent.children('li.open').removeClass('open');
             }
-
             var slideOffeset = -200;
-
             if (sub.is(":visible")) {
                 $('.arrow', $(this)).removeClass("open");
                 $(this).parent().removeClass("open");
@@ -182,11 +160,9 @@ var Layout = function () {
                     handleSidebarAndContentHeight();
                 });
             }
-
             e.preventDefault();
         });
-
-        // handle ajax links within sidebar menu
+        // Ajax侧边栏菜单
         $('.page-sidebar').on('click', ' li > a.ajaxify', function (e) {
             e.preventDefault();
             Metronic.scrollTop();
@@ -235,7 +211,7 @@ var Layout = function () {
             });
         });
 
-        // handle ajax link within main content
+        // Ajax链接
         $('.page-content').on('click', '.ajaxify', function (e) {
             e.preventDefault();
             Metronic.scrollTop();
@@ -246,7 +222,7 @@ var Layout = function () {
 
             Metronic.startPageLoading();
 
-            if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // close the menu on mobile view while laoding a page 
+            if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // 页面载入时关闭页面
                 $('.page-header .responsive-toggler').click();
             }
 
@@ -258,8 +234,8 @@ var Layout = function () {
                 success: function (res) {
                     Metronic.stopPageLoading();
                     pageContentBody.html(res);
-                    Layout.fixContentHeight(); // fix content height
-                    Metronic.initAjax(); // initialize core stuff
+                    Layout.fixContentHeight(); // 固定内容的高度
+                    Metronic.initAjax(); // 初始化核心的东西
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
                     pageContentBody.html('<h4>Could not load the requested content.</h4>');
@@ -268,35 +244,35 @@ var Layout = function () {
             });
         });
 
-        // handle scrolling to top on responsive menu toggler click when header is fixed for mobile view
+        // 处理滚动顶响应菜单点击时显示开关头固定移动视图
         $(document).on('click', '.page-header-fixed-mobile .page-header .responsive-toggler', function(){
             Metronic.scrollTop(); 
         });      
      
-        // handle sidebar hover effect        
+        // 侧边栏悬停效果
         handleFixedSidebarHoverEffect();
 
-        // handle the search bar close
+        // 关闭搜索栏
         $('.page-sidebar').on('click', '.sidebar-search .remove', function (e) {
             e.preventDefault();
             $('.sidebar-search').removeClass("open");
         });
 
-        // handle the search query submit on enter press
+        // 处理输入的搜索提交的搜索查询
         $('.page-sidebar .sidebar-search').on('keypress', 'input.form-control', function (e) {
             if (e.which == 13) {
                 $('.sidebar-search').submit();
-                return false; //<---- Add this line
+                return false; //<---- 加入这一行
             }
         });
 
-        // handle the search submit(for sidebar search and responsive mode of the header search)
+        // 处理搜索提交（对搜索工具和响应标头的搜索模式）
         $('.sidebar-search .submit').on('click', function (e) {
             e.preventDefault();
             if ($('body').hasClass("page-sidebar-closed")) {
                 if ($('.sidebar-search').hasClass('open') === false) {
                     if ($('.page-sidebar-fixed').size() === 1) {
-                        $('.page-sidebar .sidebar-toggler').click(); //trigger sidebar toggle button
+                        $('.page-sidebar .sidebar-toggler').click(); //触发器栏切换按钮
                     }
                     $('.sidebar-search').addClass("open");
                 } else {
@@ -320,36 +296,29 @@ var Layout = function () {
             });
         }
     };
-
-    // Helper function to calculate sidebar height for fixed sidebar layout.
+    // 计算固定侧边栏高度辅助功能布局。
     var _calculateFixedSidebarViewportHeight = function () {
         var sidebarHeight = Metronic.getViewPort().height - $('.page-header').outerHeight();
         if ($('body').hasClass("page-footer-fixed")) {
             sidebarHeight = sidebarHeight - $('.page-footer').outerHeight();
         }
-
         return sidebarHeight;
     };
-
-    // Handles fixed sidebar
+    //固定侧边栏
     var handleFixedSidebar = function () {
         var menu = $('.page-sidebar-menu');
-
         Metronic.destroySlimScroll(menu);
-
         if ($('.page-sidebar-fixed').size() === 0) {
             handleSidebarAndContentHeight();
             return;
         }
-
         if (Metronic.getViewPort().width >= resBreakpointMd) {
             menu.attr("data-height", _calculateFixedSidebarViewportHeight());
             Metronic.initSlimScroll(menu);
             handleSidebarAndContentHeight();
         }
     };
-
-    // Handles sidebar toggler to close/hide the sidebar.
+    //侧边栏显示开关关闭/隐藏侧边栏。
     var handleFixedSidebarHoverEffect = function () {
         var body = $('body');
         if (body.hasClass('page-sidebar-fixed')) {
@@ -364,16 +333,14 @@ var Layout = function () {
             });
         }
     };
-
-    // Hanles sidebar toggler
+    // 边栏显示开关
     var handleSidebarToggler = function () {
         var body = $('body');
         if ($.cookie && $.cookie('sidebar_closed') === '1' && Metronic.getViewPort().width >= resBreakpointMd) {
             $('body').addClass('page-sidebar-closed');
             $('.page-sidebar-menu').addClass('page-sidebar-menu-closed');
         }
-
-        // handle sidebar show/hide
+        // 侧边栏显示/隐藏
         $('body').on('click', '.sidebar-toggler', function (e) {
             var sidebar = $('.page-sidebar');
             var sidebarMenu = $('.page-sidebar-menu');
@@ -395,14 +362,12 @@ var Layout = function () {
                     $.cookie('sidebar_closed', '1');
                 }
             }
-
             $(window).trigger('resize');
         });
     };
-
-    // Handles the horizontal menu
+    //处理水平菜单
     var handleHorizontalMenu = function () {
-        //handle tab click
+        //选项卡，点击
         $('.page-header').on('click', '.hor-menu a[data-toggle="tab"]', function (e) {
             e.preventDefault();
             var nav = $(".hor-menu .nav");
@@ -413,8 +378,7 @@ var Layout = function () {
             new_link.addClass("current");
             new_link.find("a:first").append('<span class="selected"></span>');
         });
-
-        // handle search box expand/collapse        
+        // 搜索框扩展/崩溃
         $('.page-header').on('click', '.search-form', function (e) {
             $(this).addClass("open");
             $(this).find('.form-control').focus();
@@ -424,47 +388,41 @@ var Layout = function () {
                 $(this).unbind("blur");
             });
         });
-
-        // handle hor menu search form on enter press
+        // 水平菜单
         $('.page-header').on('keypress', '.hor-menu .search-form .form-control', function (e) {
             if (e.which == 13) {
                 $(this).closest('.search-form').submit();
                 return false;
             }
         });
-
-        // handle header search button click
+        // 搜索按钮点击
         $('.page-header').on('mousedown', '.search-form.open .submit', function (e) {
             e.preventDefault();
             e.stopPropagation();
             $(this).closest('.search-form').submit();
         });
-
-        // handle hover dropdown menu for desktop devices only
+        // 处理下拉菜单
         $('[data-hover="megamenu-dropdown"]').not('.hover-initialized').each(function() {   
             $(this).dropdownHover(); 
             $(this).addClass('hover-initialized'); 
         });
-        
         $(document).on('click', '.mega-menu-dropdown .dropdown-menu', function (e) {
             e.stopPropagation();
         });
     };
-
-    // Handles Bootstrap Tabs.
+    //
     var handleTabs = function () {
         // fix content height on tab click
         $('body').on('shown.bs.tab', 'a[data-toggle="tab"]', function () {
             handleSidebarAndContentHeight();
         });
     };
-
-    // Handles the go to top button at the footer
+    // 脚注的顶部
     var handleGoTop = function () {
         var offset = 300;
         var duration = 500;
 
-        if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {  // ios supported
+        if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {  // ios
             $(window).bind("touchend touchcancel touchleave", function(e){
                if ($(this).scrollTop() > offset) {
                     $('.scroll-to-top').fadeIn(duration);
@@ -472,7 +430,7 @@ var Layout = function () {
                     $('.scroll-to-top').fadeOut(duration);
                 }
             });
-        } else {  // general 
+        } else {  // 其他
             $(window).scroll(function() {
                 if ($(this).scrollTop() > offset) {
                     $('.scroll-to-top').fadeIn(duration);
@@ -488,10 +446,8 @@ var Layout = function () {
             return false;
         });
     };
-
-    // Hanlde 100% height elements(block, portlet, etc)
+    // 100%元素（块、高度处理Portlet，等）
     var handle100HeightContent = function () {
-
         var target = $('.full-height-content');
         var height;
 
@@ -508,7 +464,6 @@ var Layout = function () {
                 Metronic.destroySlimScroll(portletBody.find('.full-height-content-body')); // destroy slimscroll 
                 return;
             }
-
             height = height -
                 target.find('.portlet-title').outerHeight(true) -
                 parseInt(target.find('.portlet-body').css('padding-top')) -
@@ -536,72 +491,55 @@ var Layout = function () {
             }
         }
     };
-    //* END:CORE HANDLERS *//
-
+    //* 核心处理器开始*//
     return {
-        // Main init methods to initialize the layout
-        //IMPORTANT!!!: Do not modify the core handlers call order.
-
+        //初始化布局
         initHeader: function() {
             handleHorizontalMenu(); // handles horizontal menu    
         },
-
         setSidebarMenuActiveLink: function(mode, el) {
             handleSidebarMenuActiveLink(mode, el);
         },
-
         initSidebar: function() {
             //layout handlers
             handleFixedSidebar(); // handles fixed sidebar menu
             handleSidebarMenu(); // handles main menu
             handleSidebarToggler(); // handles sidebar hide/show
-
             if (Metronic.isAngularJsApp()) {      
                 handleSidebarMenuActiveLink('match'); // init sidebar active links 
             }
-
             Metronic.addResizeHandler(handleFixedSidebar); // reinitialize fixed sidebar on window resize
         },
-
         initContent: function() {
             handle100HeightContent(); // handles 100% height elements(block, portlet, etc)
             handleTabs(); // handle bootstrah tabs
-
             Metronic.addResizeHandler(handleSidebarAndContentHeight); // recalculate sidebar & content height on window resize
             Metronic.addResizeHandler(handle100HeightContent); // reinitialize content height on window resize 
         },
-
         initFooter: function() {
             handleGoTop(); //handles scroll to top functionality in the footer
         },
-
         init: function () {            
             this.initHeader();
             this.initSidebar();
             this.initContent();
             this.initFooter();
         },
-
         //public function to fix the sidebar and content height accordingly
         fixContentHeight: function () {
             handleSidebarAndContentHeight();
         },
-
         initFixedSidebarHoverEffect: function() {
             handleFixedSidebarHoverEffect();
         },
-
         initFixedSidebar: function() {
             handleFixedSidebar();
         },
-
         getLayoutImgPath: function () {
             return Metronic.getAssetsPath() + layoutImgPath;
         },
-
         getLayoutCssPath: function () {
             return Metronic.getAssetsPath() + layoutCssPath;
         }
     };
-
 }();

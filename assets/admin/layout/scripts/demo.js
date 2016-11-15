@@ -1,17 +1,10 @@
-/**
-Demo script to handle the theme demo
-**/
 var Demo = function() {
-
     // Handle Theme Settings
     var handleTheme = function() {
-
         var panel = $('.theme-panel');
-
         if ($('body').hasClass('page-boxed') === false) {
             $('.layout-option', panel).val("fluid");
         }
-
         $('.sidebar-option', panel).val("default");
         $('.page-header-option', panel).val("fixed");
         $('.page-footer-option', panel).val("default");
@@ -250,7 +243,6 @@ var Demo = function() {
 
         $('.layout-option, .page-header-option, .page-header-top-dropdown-style-option, .sidebar-option, .page-footer-option, .sidebar-pos-option, .sidebar-style-option, .sidebar-menu-option', panel).change(setLayout);
     };
-
     // handle theme style
     var setThemeStyle = function(style) {
         var file = (style === 'rounded' ? 'components-rounded' : 'components');
@@ -262,9 +254,7 @@ var Demo = function() {
             $.cookie('layout-style-option', style);
         }
     };
-
     return {
-
         //main function to initiate the theme
         init: function() {
             // handles style customer tool
@@ -274,7 +264,6 @@ var Demo = function() {
             $('.theme-panel .layout-style-option').change(function() {
                  setThemeStyle($(this).val());
             });
-
             // set layout style from cookie
             if ($.cookie && $.cookie('layout-style-option') === 'rounded') {
                 setThemeStyle($.cookie('layout-style-option'));
@@ -282,5 +271,4 @@ var Demo = function() {
             }            
         }
     };
-
 }();

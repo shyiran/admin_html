@@ -1,5 +1,5 @@
 /**
-Core script to handle the entire theme and core functions
+核心脚本来处理整个主题和核心功能 
 **/
 var Layout = function () {
 
