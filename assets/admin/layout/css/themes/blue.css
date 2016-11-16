@@ -447,6 +447,25 @@
 .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a,
 .page-sidebar .page-sidebar-menu .sub-menu > li.open > a,
 .page-sidebar .page-sidebar-menu .sub-menu > li.active > a {
+  background: #4391c6 !important
+}
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > a > .selected{
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid #f5f5f5;
+  border-top: 6px solid transparent;
+  display: block;
+  float: right;
+  height: 0;
+  position: relative;
+  right: -15px;
+  top: 5px;
+  width: 0;
+}
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend,
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend >a:hover,
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend >a:link,
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend >a:hover {
   background: #397FAE !important;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a > i,
