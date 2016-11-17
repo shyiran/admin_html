@@ -462,10 +462,14 @@
   top: 5px;
   width: 0;
 }
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.opend,
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.opend >a:hover,
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.opend >a:link,
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.opend >a:hover,
 .page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend,
 .page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend >a:hover,
 .page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend >a:link,
-.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend >a:hover {
+.page-sidebar .page-sidebar-menu > li.active > .sub-menu > li.open > .sub-menu  >li.opend >a:hover{
   background: #397FAE !important;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a > i,
@@ -618,6 +622,41 @@ Quick Sidebar Layout
   background: #3c7fb9;
 }
 
+.tit_tab {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.tit_tab ul {
+  margin: 0;
+  padding: 0;
+}
+.tit_tab li {
+  float: left;
+  height: 40px;
+  list-style: outside none none;
+  margin: 0 10px;
+  overflow: hidden;
+}
+.tit_tab li a {
+  color: #333;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.tit_tab .on {
+  border-bottom: 2px solid #3598dc;
+  color: #3598dc;
+  height: 40px;
+  padding: 0 10px;
+}
+.tit_tab .on a {
+  color: #3598dc;
+}
 /*** 
 Quick Sidebar Toggler 
 ***/

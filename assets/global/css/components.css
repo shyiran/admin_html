@@ -4311,7 +4311,7 @@ Portlets
 /* Basic portlet */
 .portlet {
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   padding: 0px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -8906,10 +8906,7 @@ Grey Default
   color: #fdfdfd;
 }
 
-.portlet.box.grey {
-  border: 1px solid white;
-  border-top: 0;
-}
+.portlet.box.grey {  border: 1px solid #EFEFEF;  }
 .portlet.box.grey > .portlet-title {
   background-color: #E5E5E5;
 }
