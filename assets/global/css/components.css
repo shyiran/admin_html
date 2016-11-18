@@ -7,8 +7,8 @@ div, input, select, textarea, span, img, table, label, td, th, p, a, button, ul,
 .img-rounded {
   border-radius: 6px !important;
 }
-/* Set default body */
-body {  color: #333333;  font-family: "微软雅黑","Open Sans", sans-serif;  padding: 0px !important;  margin: 0px !important;  font-size: 13px;  direction: ltr;  }
+/* 默认主体y */
+body {  color: #333333;  font-family: "微软雅黑","Open Sans", sans-serif;  padding: 0px !important;  margin: 0px !important;  font-size: 12px;  direction: ltr;  }
 /*
  Internet Explorer 10 doesn't differentiate device width from viewport width, and thus doesn't 
  properly apply the media queries in Bootstrap's CSS. To address this, 
@@ -8910,12 +8910,8 @@ Grey Default
 .portlet.box.grey > .portlet-title {
   background-color: #E5E5E5;
 }
-.portlet.box.grey > .portlet-title > .caption {
-  color: #333333;
-}
-.portlet.box.grey > .portlet-title > .caption > i {
-  color: #333333;
-}
+.portlet.box.grey > .portlet-title > .caption {  color: #999999;  }
+.portlet.box.grey > .portlet-title > .caption > i {  color: #999999;  }
 .portlet.box.grey > .portlet-title > .actions .btn-default {
   background: transparent !important;
   background-color: transparent !important;

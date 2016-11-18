@@ -709,9 +709,82 @@ admin.siteConfigDefault = function(value){
 	$(html).insertAfter($('#form_submit')).hide();
 	admin.siteConfig(value);
 };
-admin.siteConfig = function(value){
+//临时存储机制 适用于分割开存储的内容
 
-	$('.form2 dl').each(function(){
+admin.stringDb = function(obj,inputname,tags){
+	this.inputname = inputname;
+	this.obj  = obj;
+	if(tags != ''){
+		this.tags = tags.split(',');
+	}else{
+		this.tags = new Array();
+	}
+	this.taglist = $(obj).find('ul');
+	this.inputhide = $(obj).find("input[name='"+inputname+"']");
+};
+
+admin.stringDb.prototype = {
+	init:function(){
+		if(this.tags.length > 0){
+			var html = '';
+			for(var i in this.tags){
+				if(this.tags[i] != ''){
+					html +='<li><label>'+this.tags[i]+'</label><em>X</em></li>';
+				}
+			}
+			this.taglist.html(html);
+			this.bindUl();
+		}
+	},
+	bindUl:function(){
+		var _this = this;
+		this.taglist.find('li').click(function(){
+			_this.remove($(this).find('label').html());
+		});
+	},
+	add:function(tag){
+		var _tag = tag.split(',');
+		var _this = this;
+		var add = function(t){
+			for(var i in _this.tags){
+				if(_this.tags[i] == t){
+					return false;
+				}
+			}
+			var html = '<li><label>'+t+'</label><em>X</em></li>';
+			_this.tags[_this.tags.length] = t;
+			_this.taglist.append(html);
+		};
+
+		for(var ii in _tag){
+			if(_tag[ii] != ''){
+				add(_tag[ii]);
+			}
+		}
+
+		this.inputhide.val(this.tags.join(','));
+		this.bindUl();
+	},
+	remove:function(tag){
+		var del = function(arr,n){
+			if(n<0){
+				return arr;
+			}else{
+				return arr.slice(0,n).concat(arr.slice(n+1,arr.length))
+			}
+		}
+
+		for(var i in this.tags){
+			if(this.tags[i] == tag){
+				this.tags = del(this.tags,parseInt(i));
+				this.taglist.find('li').eq(i).remove();
+				this.inputhide.val(this.tags.join(','));
+			}
+		}
+	}
+};
+admin.siteConfig = function(value){
+	$('.form-body .form-group').each(function(){
 		var _id = $(this).attr('id');
 		if(_id != "dl_site_closed"){
 			if(value == "1"){
@@ -730,9 +803,11 @@ admin.siteConfig = function(value){
 		}
 	});
 	if(value==1){
-		$('#form_submit').show();$('#form_submit_2').hide();
+		$('#form_submit').show();
+		$('#form_submit_2').hide();
 	}else{
-		$('#form_submit_2').show();$('#form_submit').hide();
+		$('#form_submit_2').show();
+		$('#form_submit').hide();
 	}
 };
 

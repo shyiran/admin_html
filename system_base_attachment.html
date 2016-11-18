@@ -1019,14 +1019,14 @@
 					<div class="portlet">
 						<div class="portlet-body">
 							<div class="portlet-title">
-				<div class="caption">
-					<a onclick="admin.fold('search_form')" class="btn_a btn btn-success btn-sm"><i class="fa fa-search"></i> 筛选 </a>
-				</div>
-				<div class="actions">
-					<a onclick="admin.fold('search_config')" class="btn_a btn btn-success btn-sm"><i class="fa fa-search-plus"></i> 搜索配置 </a>
-					<a onclick="admin.fold('page_config')" class="btn_a btn btn-success btn-sm"><i class="fa fa-cog"></i> 页面配置 </a>
-				</div>
-			</div>
+								<div class="caption">
+									<a onclick="admin.fold('search_form')" class="btn_a btn btn-success btn-sm"><i class="fa fa-search"></i> 筛选 </a>
+								</div>
+								<div class="actions">
+									<a onclick="admin.fold('search_config')" class="btn_a btn btn-success btn-sm"><i class="fa fa-search-plus"></i> 搜索配置 </a>
+									<a onclick="admin.fold('page_config')" class="btn_a btn btn-success btn-sm"><i class="fa fa-cog"></i> 页面配置 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1034,21 +1034,26 @@
 			<div class="row" id="search_form" style="display: none;">
 				<div class="col-md-12">
 					<div class="portlet box grey">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-search-plus"></i> 筛选
+							</div>
+						</div>
 						<div class="portlet-body form">
 							<form  class="form-horizontal form-row-seperated" >
 								<div class="form-body">
 									<div class="form-group">
-						<label class="col-md-2 control-label">
-							<div class="row"> 类别：</div>
-						</label>
-						<div class="col-md-10">
-							<select class="bs-select form-control input-inline input-medium">
-								<option> 全部 </option>
-								<option> 社保 </option>
-								<option> 公积金 </option>
-							</select>
-						</div>
-					</div>
+										<label class="col-md-2 control-label">
+											<div class="row"> 类别：</div>
+										</label>
+										<div class="col-md-10">
+											<select class="bs-select form-control input-inline input-medium">
+												<option> 全部 </option>
+												<option> 社保 </option>
+												<option> 公积金 </option>
+											</select>
+										</div>
+									</div>
 									<div class="form-group">
 						<label class="col-md-2 control-label"> 关键词 : </label>
 						<div class="col-md-10">
@@ -1067,177 +1072,240 @@
 					</div>
 				</div>
 			</div>
-			<div id="search_config" class="form-horizontal form-row-seperated col-md-12 form-config" style="display: none;">
-				<div class="form-body">
-					<div class="form-group">
-						<label class="col-md-2 control-label">
-							<div class="row"> 类别：</div>
-						</label>
-						<div class="col-md-10">
-							<select class="bs-select form-control input-inline input-medium">
-								<option> 全部 </option>
-								<option> 社保 </option>
-								<option> 公积金 </option>
-							</select>
+			<div id="search_config" class="row" style="display: none;">
+				<div class="col-md-12">
+					<div class="portlet box grey">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-cog"></i> 搜索配置
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="col-md-2 control-label"> 关键词 : </label>
-						<div class="col-md-10">
-							<input type="text" class="form-control input-inline input-medium" placeholder="搜索关键词">
-							<span class="help-inline"></span>
-						</div>
-					</div>
-					<div class="form-actions">
-						<div class="row" style="text-align: center">
-							<button type="submit" class="btn purple"><i class="fa fa-check"></i> 确定 </button>
+						<div class="portlet-body form">
+							<form  class="form-horizontal form-row-seperated" >
+								<div class="form-body">
+									<div class="form-group">
+										<label class="col-md-2 control-label">
+											<div class="row"> 类别：</div>
+										</label>
+										<div class="col-md-10">
+											<select class="bs-select form-control input-inline input-medium">
+												<option> 全部 </option>
+												<option> 社保 </option>
+												<option> 公积金 </option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2 control-label"> 关键词 : </label>
+										<div class="col-md-10">
+											<input type="text" class="form-control input-inline input-medium" placeholder="搜索关键词">
+											<span class="help-inline"></span>
+										</div>
+									</div>
+									<div class="form-actions">
+										<div class="row" style="text-align: center">
+											<button type="submit" class="btn purple"><i class="fa fa-check"></i> 确定 </button>
+										</div>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div id="page_config" class="form-horizontal form-row-seperated col-md-12 form-config" style="display: none;">
-				<table class="table table-hover" width="100%" cellspacing="0" cellpadding="0" border="0">
-					<tbody><tr>
-						<th>字段</th>
-						<th class="line_l">名称</th>
-						<th class="line_l">输入类型</th>
-						<th class="line_l">默认值格式</th>
-						<th class="line_l">提示信息</th>
-						<th class="line_l">验证事件</th>
-					</tr>
-					<tr overstyle="on">
-						<td> <input name="key[]" value="frist_quarter" type="hidden"> frist_quarter</td>
-						<td> <input name="key_name[]" value="第一季度起始月" type="text"></td>
-						<td>
-							<select name="key_type[]">
-								<option value="text" selected="selected">文本框:input_text</option>
-								<option value="password">密码框:input_password</option>
-								<option value="select">下拉框:select</option>
-								<option value="radio">单选框:radio</option>
-								<option value="checkbox">多选框:checkbox</option>
-								<option value="date">日期插件:date</option>
-								<option value="textarea">文本域:textarea</option>
-								<option value="editor">编辑器:editor</option>
-								<option value="word">纯文字:word</option>
-								<option value="hidden">隐藏值:input_hidden</option>
-								<option value="image">图片上传:input_image</option>
-								<option value="file">附件上传:input_file</option>
-								<option value="department">部门选择:department</option>
-								<option value="user">用户选择:selectUser</option>
-								<option value="oneUser">单用户选择:selectOneUser</option>
-								<option value="stringText">分割存储:stringText</option>
-								<option value="color">色彩框:color</option>
-								<option value="define">自定义:custom</option>
-							</select>
-						</td>
-						<td><input name="key_default[]" value="" type="text"></td>
-						<td><input name="key_tishi[]" value="" type="text"></td>
-						<td><input name="key_javascript[]" value="" type="text"></td>
-						<!--
-                        <td style="background-color:#1E325C">
-                        <a onclick="admin.moveUp($(this))" class="ico_top" title="上移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a> &nbsp;&nbsp;
-                        <a onclick="admin.moveDown($(this))" class="ico_btm" title="下移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a>
-                        </td> -->
-					</tr>                                <tr overstyle="on">
-						<td> <input name="key[]" value="query_managers" type="hidden"> query_managers</td>
-						<td> <input name="key_name[]" value="查询管理员" type="text"></td>
-						<td>
-							<select name="key_type[]">
-								<option value="text">文本框:input_text</option>
-								<option value="password">密码框:input_password</option>
-								<option value="select">下拉框:select</option>
-								<option value="radio">单选框:radio</option>
-								<option value="checkbox">多选框:checkbox</option>
-								<option value="date">日期插件:date</option>
-								<option value="textarea" selected="selected">文本域:textarea</option>
-								<option value="editor">编辑器:editor</option>
-								<option value="word">纯文字:word</option>
-								<option value="hidden">隐藏值:input_hidden</option>
-								<option value="image">图片上传:input_image</option>
-								<option value="file">附件上传:input_file</option>
-								<option value="department">部门选择:department</option>
-								<option value="user">用户选择:selectUser</option>
-								<option value="oneUser">单用户选择:selectOneUser</option>
-								<option value="stringText">分割存储:stringText</option>
-								<option value="color">色彩框:color</option>
-								<option value="define">自定义:custom</option>
-							</select>
-						</td>
-						<td><input name="key_default[]" value="" type="text"></td>
-						<td><input name="key_tishi[]" value="" type="text"></td>
-						<td><input name="key_javascript[]" value="" type="text"></td>
-						<!--
-                        <td style="background-color:#1E325C">
-                        <a onclick="admin.moveUp($(this))" class="ico_top" title="上移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a> &nbsp;&nbsp;
-                        <a onclick="admin.moveDown($(this))" class="ico_btm" title="下移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a>
-                        </td> -->
-					</tr>                                <tr overstyle="on">
-						<td> <input name="key[]" value="holiday_date" type="hidden"> holiday_date</td>
-						<td> <input name="key_name[]" value="节假日" type="text"></td>
-						<td>
-							<select name="key_type[]">
-								<option value="text">文本框:input_text</option>
-								<option value="password">密码框:input_password</option>
-								<option value="select">下拉框:select</option>
-								<option value="radio">单选框:radio</option>
-								<option value="checkbox">多选框:checkbox</option>
-								<option value="date">日期插件:date</option>
-								<option value="textarea" selected="selected">文本域:textarea</option>
-								<option value="editor">编辑器:editor</option>
-								<option value="word">纯文字:word</option>
-								<option value="hidden">隐藏值:input_hidden</option>
-								<option value="image">图片上传:input_image</option>
-								<option value="file">附件上传:input_file</option>
-								<option value="department">部门选择:department</option>
-								<option value="user">用户选择:selectUser</option>
-								<option value="oneUser">单用户选择:selectOneUser</option>
-								<option value="stringText">分割存储:stringText</option>
-								<option value="color">色彩框:color</option>
-								<option value="define">自定义:custom</option>
-							</select>
-						</td>
-						<td><input name="key_default[]" value="" type="text"></td>
-						<td><input name="key_tishi[]" value="" type="text"></td>
-						<td><input name="key_javascript[]" value="" type="text"></td>
-						<!--
-                        <td style="background-color:#1E325C">
-                        <a onclick="admin.moveUp($(this))" class="ico_top" title="上移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a> &nbsp;&nbsp;
-                        <a onclick="admin.moveDown($(this))" class="ico_btm" title="下移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a>
-                        </td> -->
-					</tr>                                <tr overstyle="on">
-						<td> <input name="key[]" value="test_email" type="hidden"> test_email</td>
-						<td> <input name="key_name[]" value="审批测试邮箱" type="text"></td>
-						<td>
-							<select name="key_type[]">
-								<option value="text" selected="selected">文本框:input_text</option>
-								<option value="password">密码框:input_password</option>
-								<option value="select">下拉框:select</option>
-								<option value="radio">单选框:radio</option>
-								<option value="checkbox">多选框:checkbox</option>
-								<option value="date">日期插件:date</option>
-								<option value="textarea">文本域:textarea</option>
-								<option value="editor">编辑器:editor</option>
-								<option value="word">纯文字:word</option>
-								<option value="hidden">隐藏值:input_hidden</option>
-								<option value="image">图片上传:input_image</option>
-								<option value="file">附件上传:input_file</option>
-								<option value="department">部门选择:department</option>
-								<option value="user">用户选择:selectUser</option>
-								<option value="oneUser">单用户选择:selectOneUser</option>
-								<option value="stringText">分割存储:stringText</option>
-								<option value="color">色彩框:color</option>
-								<option value="define">自定义:custom</option>
-							</select>
-						</td>
-						<td><input name="key_default[]" value="" type="text"></td>
-						<td><input name="key_tishi[]" value="" type="text"></td>
-						<td><input name="key_javascript[]" value="" type="text"></td>
-						<!--
-                        <td style="background-color:#1E325C">
-                        <a onclick="admin.moveUp($(this))" class="ico_top" title="上移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a> &nbsp;&nbsp;
-                        <a onclick="admin.moveDown($(this))" class="ico_btm" title="下移"><img src="THEME_PUBLIC_URL/admin/image/zw_img.gif"></a>
-                        </td> -->
-					</tr>                        </tbody></table>
+			<div id="page_config" class="row" style="display: none;">
+				<div class="col-md-12">
+					<div class="portlet box grey">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-cog"></i> 页面配置
+							</div>
+						</div>
+						<div class="portlet-body form">
+							<form  class="form-horizontal form-row-seperated" >
+								<div class="form-body">
+									<table class="table table-hover" width="100%" cellspacing="0" cellpadding="0" border="0">
+										<tbody>
+											<tr>
+												<th>字段</th>
+												<th class="line_l">名称</th>
+												<th class="line_l">输入类型</th>
+												<th class="line_l">默认值格式</th>
+												<th class="line_l">提示信息</th>
+												<th class="line_l">验证事件</th>
+											</tr>
+											<tr overstyle="on">
+												<td>
+													<input name="key[]" value="frist_quarter" type="hidden">
+													<label class="control-label"> frist_quarter </label>
+												</td>
+												<td>
+													<input name="key_name[]" value="第一季度起始月" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<select name="key_type[]" class="form-control medium">
+														<option value="text" selected="selected">文本框:input_text</option>
+														<option value="password">密码框:input_password</option>
+														<option value="select">下拉框:select</option>
+														<option value="radio">单选框:radio</option>
+														<option value="checkbox">多选框:checkbox</option>
+														<option value="date">日期插件:date</option>
+														<option value="textarea">文本域:textarea</option>
+														<option value="editor">编辑器:editor</option>
+														<option value="word">纯文字:word</option>
+														<option value="hidden">隐藏值:input_hidden</option>
+														<option value="image">图片上传:input_image</option>
+														<option value="file">附件上传:input_file</option>
+														<option value="department">部门选择:department</option>
+														<option value="user">用户选择:selectUser</option>
+														<option value="oneUser">单用户选择:selectOneUser</option>
+														<option value="stringText">分割存储:stringText</option>
+														<option value="color">色彩框:color</option>
+														<option value="define">自定义:custom</option>
+													</select>
+												</td>
+												<td>
+													<input name="key_default[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_tishi[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_javascript[]" value="" type="text" class="form-control input-small">
+												</td>
+											</tr>
+											<tr overstyle="on">
+												<td>
+													<input name="key[]" value="query_managers" type="hidden">
+													<label class="control-label"> query_managers </label>
+												</td>
+												<td>
+													<input name="key_name[]" value="查询管理员" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<select name="key_type[]" class="form-control medium">
+													<option value="text">文本框:input_text</option>
+													<option value="password">密码框:input_password</option>
+													<option value="select">下拉框:select</option>
+													<option value="radio">单选框:radio</option>
+													<option value="checkbox">多选框:checkbox</option>
+													<option value="date">日期插件:date</option>
+													<option value="textarea" selected="selected">文本域:textarea</option>
+													<option value="editor">编辑器:editor</option>
+													<option value="word">纯文字:word</option>
+													<option value="hidden">隐藏值:input_hidden</option>
+													<option value="image">图片上传:input_image</option>
+													<option value="file">附件上传:input_file</option>
+													<option value="department">部门选择:department</option>
+													<option value="user">用户选择:selectUser</option>
+													<option value="oneUser">单用户选择:selectOneUser</option>
+													<option value="stringText">分割存储:stringText</option>
+													<option value="color">色彩框:color</option>
+													<option value="define">自定义:custom</option>
+												</select>
+												</td>
+												<td>
+													<input name="key_default[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_tishi[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_javascript[]" value="" type="text" class="form-control input-small">
+												</td>
+											</tr>
+											<tr overstyle="on">
+												<td>
+													<input name="key[]" value="holiday_date" type="hidden">
+													<label class="control-label"> holiday_date </label>
+												</td>
+												<td>
+													<input name="key_name[]" value="节假日" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<select name="key_type[]"  class="form-control medium">
+														<option value="text">文本框:input_text</option>
+														<option value="password">密码框:input_password</option>
+														<option value="select">下拉框:select</option>
+														<option value="radio">单选框:radio</option>
+														<option value="checkbox">多选框:checkbox</option>
+														<option value="date">日期插件:date</option>
+														<option value="textarea" selected="selected">文本域:textarea</option>
+														<option value="editor">编辑器:editor</option>
+														<option value="word">纯文字:word</option>
+														<option value="hidden">隐藏值:input_hidden</option>
+														<option value="image">图片上传:input_image</option>
+														<option value="file">附件上传:input_file</option>
+														<option value="department">部门选择:department</option>
+														<option value="user">用户选择:selectUser</option>
+														<option value="oneUser">单用户选择:selectOneUser</option>
+														<option value="stringText">分割存储:stringText</option>
+														<option value="color">色彩框:color</option>
+														<option value="define">自定义:custom</option>
+													</select>
+												</td>
+												<td>
+													<input name="key_default[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_tishi[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_javascript[]" value="" type="text" class="form-control input-small">
+												</td>
+											</tr>
+											<tr overstyle="on">
+												<td>
+													<input name="key[]" value="test_email" type="hidden">
+													<label class="control-label">test_email</label>
+												</td>
+												<td>
+													<input name="key_name[]" value="审批测试邮箱" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<select name="key_type[]"  class="form-control medium">
+														<option value="text" selected="selected">文本框:input_text</option>
+														<option value="password">密码框:input_password</option>
+														<option value="select">下拉框:select</option>
+														<option value="radio">单选框:radio</option>
+														<option value="checkbox">多选框:checkbox</option>
+														<option value="date">日期插件:date</option>
+														<option value="textarea">文本域:textarea</option>
+														<option value="editor">编辑器:editor</option>
+														<option value="word">纯文字:word</option>
+														<option value="hidden">隐藏值:input_hidden</option>
+														<option value="image">图片上传:input_image</option>
+														<option value="file">附件上传:input_file</option>
+														<option value="department">部门选择:department</option>
+														<option value="user">用户选择:selectUser</option>
+														<option value="oneUser">单用户选择:selectOneUser</option>
+														<option value="stringText">分割存储:stringText</option>
+														<option value="color">色彩框:color</option>
+														<option value="define">自定义:custom</option>
+													</select>
+												</td>
+												<td>
+													<input name="key_default[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_tishi[]" value="" type="text" class="form-control input-small">
+												</td>
+												<td>
+													<input name="key_javascript[]" value="" type="text" class="form-control input-small">
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="form-actions">
+										<div class="row" style="text-align: center">
+											<button type="submit" class="btn purple"><i class="fa fa-check"></i> 确定 </button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
