@@ -2,34 +2,171 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3dd3617-c1d0-497b-b68d-ab21afa854da" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap-switch/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap-switch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/jquery-slimscroll/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/jquery-slimscroll/slimScroll.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/uniform/css/uniform.default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/global/plugins/uniform/css/uniform.default.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/img/logo.png" afterPath="$PROJECT_DIR$/assets/admin/layout/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/tpl/quick-sidebar.html" afterPath="$PROJECT_DIR$/angularjs/tpl/quick-sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/views/dashboard.html" afterPath="$PROJECT_DIR$/angularjs/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs/views/profile/dashboard.html" afterPath="$PROJECT_DIR$/angularjs/views/profile/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/css/layout.css" afterPath="$PROJECT_DIR$/assets/admin/layout/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/css/themes/blue.css" afterPath="$PROJECT_DIR$/assets/admin/layout/css/themes/blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/css/themes/darkblue.css" afterPath="$PROJECT_DIR$/assets/admin/layout/css/themes/darkblue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/css/themes/default.css" afterPath="$PROJECT_DIR$/assets/admin/layout/css/themes/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/css/themes/grey.css" afterPath="$PROJECT_DIR$/assets/admin/layout/css/themes/grey.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/css/themes/light.css" afterPath="$PROJECT_DIR$/assets/admin/layout/css/themes/light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/css/themes/light2.css" afterPath="$PROJECT_DIR$/assets/admin/layout/css/themes/light2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout/scripts/common.js" afterPath="$PROJECT_DIR$/assets/admin/layout/scripts/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout2/css/themes/blue.css" afterPath="$PROJECT_DIR$/assets/admin/layout2/css/themes/blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout2/css/themes/dark.css" afterPath="$PROJECT_DIR$/assets/admin/layout2/css/themes/dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout2/css/themes/default.css" afterPath="$PROJECT_DIR$/assets/admin/layout2/css/themes/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout2/css/themes/grey.css" afterPath="$PROJECT_DIR$/assets/admin/layout2/css/themes/grey.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout2/css/themes/light.css" afterPath="$PROJECT_DIR$/assets/admin/layout2/css/themes/light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/layout.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/blue-hoki.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/blue-hoki.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/blue-steel.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/blue-steel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/default.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/green-haze.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/green-haze.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/purple-plum.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/purple-plum.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/purple-studio.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/purple-studio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/red-intense.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/red-intense.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/red-sunglo.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/red-sunglo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/yellow-crusta.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/yellow-crusta.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/layout3/css/themes/yellow-orange.css" afterPath="$PROJECT_DIR$/assets/admin/layout3/css/themes/yellow-orange.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/css/components-md.css" afterPath="$PROJECT_DIR$/assets/global/css/components-md.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/css/components-rounded.css" afterPath="$PROJECT_DIR$/assets/global/css/components-rounded.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/css/components.css" afterPath="$PROJECT_DIR$/assets/global/css/components.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/plugins/datatables/examples/resources/foundation/dataTables.foundation.js" afterPath="$PROJECT_DIR$/assets/global/plugins/datatables/examples/resources/foundation/dataTables.foundation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/plugins/datatables/media/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/assets/global/plugins/datatables/media/js/jquery.dataTables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts_amcharts.html" afterPath="$PROJECT_DIR$/charts_amcharts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts_flotcharts.html" afterPath="$PROJECT_DIR$/charts_flotcharts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_context_menu.html" afterPath="$PROJECT_DIR$/components_context_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_dropdowns.html" afterPath="$PROJECT_DIR$/components_dropdowns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_dropdowns_test.html" afterPath="$PROJECT_DIR$/components_dropdowns_test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_editors.html" afterPath="$PROJECT_DIR$/components_editors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_form_tools.html" afterPath="$PROJECT_DIR$/components_form_tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_form_tools2.html" afterPath="$PROJECT_DIR$/components_form_tools2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_ion_sliders.html" afterPath="$PROJECT_DIR$/components_ion_sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_jqueryui_sliders.html" afterPath="$PROJECT_DIR$/components_jqueryui_sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_knob_dials.html" afterPath="$PROJECT_DIR$/components_knob_dials.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_noui_sliders.html" afterPath="$PROJECT_DIR$/components_noui_sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components_pickers.html" afterPath="$PROJECT_DIR$/components_pickers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_index.html" afterPath="$PROJECT_DIR$/ecommerce_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_orders.html" afterPath="$PROJECT_DIR$/ecommerce_orders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_orders_view.html" afterPath="$PROJECT_DIR$/ecommerce_orders_view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_products.html" afterPath="$PROJECT_DIR$/ecommerce_products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce_products_edit.html" afterPath="$PROJECT_DIR$/ecommerce_products_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_404_option1.html" afterPath="$PROJECT_DIR$/extra_404_option1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_404_option2.html" afterPath="$PROJECT_DIR$/extra_404_option2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_404_option3.html" afterPath="$PROJECT_DIR$/extra_404_option3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_500_option1.html" afterPath="$PROJECT_DIR$/extra_500_option1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_500_option2.html" afterPath="$PROJECT_DIR$/extra_500_option2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_faq.html" afterPath="$PROJECT_DIR$/extra_faq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_invoice.html" afterPath="$PROJECT_DIR$/extra_invoice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_pricing_table.html" afterPath="$PROJECT_DIR$/extra_pricing_table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile.html" afterPath="$PROJECT_DIR$/extra_profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile_account.html" afterPath="$PROJECT_DIR$/extra_profile_account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile_help.html" afterPath="$PROJECT_DIR$/extra_profile_help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_profile_old.html" afterPath="$PROJECT_DIR$/extra_profile_old.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_search.html" afterPath="$PROJECT_DIR$/extra_search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flow.html" afterPath="$PROJECT_DIR$/flow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flow_config.html" afterPath="$PROJECT_DIR$/flow_config.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flow_grounp.html" afterPath="$PROJECT_DIR$/flow_grounp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flow_list.html" afterPath="$PROJECT_DIR$/flow_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flow_mod_grounp.html" afterPath="$PROJECT_DIR$/flow_mod_grounp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flow_type.html" afterPath="$PROJECT_DIR$/flow_type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_controls.html" afterPath="$PROJECT_DIR$/form_controls.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_controls_md.html" afterPath="$PROJECT_DIR$/form_controls_md.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_dropzone.html" afterPath="$PROJECT_DIR$/form_dropzone.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_editable.html" afterPath="$PROJECT_DIR$/form_editable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_fileupload.html" afterPath="$PROJECT_DIR$/form_fileupload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_icheck.html" afterPath="$PROJECT_DIR$/form_icheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_image_crop.html" afterPath="$PROJECT_DIR$/form_image_crop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_layouts.html" afterPath="$PROJECT_DIR$/form_layouts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_validation.html" afterPath="$PROJECT_DIR$/form_validation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_wizard.html" afterPath="$PROJECT_DIR$/form_wizard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inbox.html" afterPath="$PROJECT_DIR$/inbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index - 副本.html" afterPath="$PROJECT_DIR$/index - 副本.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_2.html" afterPath="$PROJECT_DIR$/index_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_3.html" afterPath="$PROJECT_DIR$/index_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_horizontal_menu.html" afterPath="$PROJECT_DIR$/index_horizontal_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_ajax.html" afterPath="$PROJECT_DIR$/layout_ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_blank_page.html" afterPath="$PROJECT_DIR$/layout_blank_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_boxed_page.html" afterPath="$PROJECT_DIR$/layout_boxed_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_fontawesome_icons.html" afterPath="$PROJECT_DIR$/layout_fontawesome_icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_full_height_content.html" afterPath="$PROJECT_DIR$/layout_full_height_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_full_height_portlet.html" afterPath="$PROJECT_DIR$/layout_full_height_portlet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_glyphicons.html" afterPath="$PROJECT_DIR$/layout_glyphicons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_horizontal_menu1.html" afterPath="$PROJECT_DIR$/layout_horizontal_menu1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_horizontal_menu2.html" afterPath="$PROJECT_DIR$/layout_horizontal_menu2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_horizontal_sidebar_menu.html" afterPath="$PROJECT_DIR$/layout_horizontal_sidebar_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_language_bar.html" afterPath="$PROJECT_DIR$/layout_language_bar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_search_on_header1.html" afterPath="$PROJECT_DIR$/layout_search_on_header1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_search_on_header2.html" afterPath="$PROJECT_DIR$/layout_search_on_header2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_closed.html" afterPath="$PROJECT_DIR$/layout_sidebar_closed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_fixed.html" afterPath="$PROJECT_DIR$/layout_sidebar_fixed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_reversed.html" afterPath="$PROJECT_DIR$/layout_sidebar_reversed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_search_option1.html" afterPath="$PROJECT_DIR$/layout_sidebar_search_option1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sidebar_search_option2.html" afterPath="$PROJECT_DIR$/layout_sidebar_search_option2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps_google.html" afterPath="$PROJECT_DIR$/maps_google.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps_vector.html" afterPath="$PROJECT_DIR$/maps_vector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_about.html" afterPath="$PROJECT_DIR$/page_about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_blog.html" afterPath="$PROJECT_DIR$/page_blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_blog_item.html" afterPath="$PROJECT_DIR$/page_blog_item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_calendar.html" afterPath="$PROJECT_DIR$/page_calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_coming_soon.html" afterPath="$PROJECT_DIR$/page_coming_soon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_contact.html" afterPath="$PROJECT_DIR$/page_contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_news.html" afterPath="$PROJECT_DIR$/page_news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_news_item.html" afterPath="$PROJECT_DIR$/page_news_item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_portfolio.html" afterPath="$PROJECT_DIR$/page_portfolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_timeline.html" afterPath="$PROJECT_DIR$/page_timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_timeline_old.html" afterPath="$PROJECT_DIR$/page_timeline_old.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_todo.html" afterPath="$PROJECT_DIR$/page_todo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_ajax.html" afterPath="$PROJECT_DIR$/portlet_ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_draggable.html" afterPath="$PROJECT_DIR$/portlet_draggable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_general.html" afterPath="$PROJECT_DIR$/portlet_general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_general2.html" afterPath="$PROJECT_DIR$/portlet_general2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portlet_general3.html" afterPath="$PROJECT_DIR$/portlet_general3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_on_boxed_layout.html" afterPath="$PROJECT_DIR$/quick_sidebar_on_boxed_layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_over_content.html" afterPath="$PROJECT_DIR$/quick_sidebar_over_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_over_content_transparent.html" afterPath="$PROJECT_DIR$/quick_sidebar_over_content_transparent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_push_content.html" afterPath="$PROJECT_DIR$/quick_sidebar_push_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick_sidebar_push_page.html" afterPath="$PROJECT_DIR$/quick_sidebar_push_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social_security_add_employee.html" afterPath="$PROJECT_DIR$/social_security_add_employee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social_security_add_security.html" afterPath="$PROJECT_DIR$/social_security_add_security.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social_security_charts.html" afterPath="$PROJECT_DIR$/social_security_charts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social_security_config.html" afterPath="$PROJECT_DIR$/social_security_config.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social_security_instructions.html" afterPath="$PROJECT_DIR$/social_security_instructions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social_security_reduce_employee.html" afterPath="$PROJECT_DIR$/social_security_reduce_employee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social_security_reduce_security.html" afterPath="$PROJECT_DIR$/social_security_reduce_security.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system.html" afterPath="$PROJECT_DIR$/system.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system_base.html" afterPath="$PROJECT_DIR$/system_base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system_base_attachment.html" afterPath="$PROJECT_DIR$/system_base_attachment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system_base_email.html" afterPath="$PROJECT_DIR$/system_base_email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system_base_file.html" afterPath="$PROJECT_DIR$/system_base_file.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system_base_sms.html" afterPath="$PROJECT_DIR$/system_base_sms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_advanced.html" afterPath="$PROJECT_DIR$/table_advanced.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_ajax.html" afterPath="$PROJECT_DIR$/table_ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_basic.html" afterPath="$PROJECT_DIR$/table_basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_editable.html" afterPath="$PROJECT_DIR$/table_editable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_managed.html" afterPath="$PROJECT_DIR$/table_managed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_responsive.html" afterPath="$PROJECT_DIR$/table_responsive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_tree.html" afterPath="$PROJECT_DIR$/table_tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_all.html" afterPath="$PROJECT_DIR$/task_all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_doing.html" afterPath="$PROJECT_DIR$/task_doing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_finished.html" afterPath="$PROJECT_DIR$/task_finished.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_unfinished.html" afterPath="$PROJECT_DIR$/task_unfinished.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_alert_dialog_api.html" afterPath="$PROJECT_DIR$/ui_alert_dialog_api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_blockui.html" afterPath="$PROJECT_DIR$/ui_blockui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_bootstrap_growl.html" afterPath="$PROJECT_DIR$/ui_bootstrap_growl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_buttons.html" afterPath="$PROJECT_DIR$/ui_buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_colors.html" afterPath="$PROJECT_DIR$/ui_colors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_confirmations.html" afterPath="$PROJECT_DIR$/ui_confirmations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_datepaginator.html" afterPath="$PROJECT_DIR$/ui_datepaginator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_extended_modals.html" afterPath="$PROJECT_DIR$/ui_extended_modals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_general.html" afterPath="$PROJECT_DIR$/ui_general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_icons.html" afterPath="$PROJECT_DIR$/ui_icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_idle_timeout.html" afterPath="$PROJECT_DIR$/ui_idle_timeout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_modals.html" afterPath="$PROJECT_DIR$/ui_modals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_nestable.html" afterPath="$PROJECT_DIR$/ui_nestable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_notific8.html" afterPath="$PROJECT_DIR$/ui_notific8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_1.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_2.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_3.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_page_progress_style_4.html" afterPath="$PROJECT_DIR$/ui_page_progress_style_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_session_timeout.html" afterPath="$PROJECT_DIR$/ui_session_timeout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_tabs_accordions_navs.html" afterPath="$PROJECT_DIR$/ui_tabs_accordions_navs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_tiles.html" afterPath="$PROJECT_DIR$/ui_tiles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_toastr.html" afterPath="$PROJECT_DIR$/ui_toastr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_tree.html" afterPath="$PROJECT_DIR$/ui_tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui_typography.html" afterPath="$PROJECT_DIR$/ui_typography.html" />
     </list>
     <ignored path="admin_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,113 +187,209 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="system_base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3571428">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state vertical-scroll-proportion="-3.2209303">
+              <caret line="1300" column="75" selection-start-line="1300" selection-start-column="55" selection-end-line="1300" selection-end-column="75" />
               <folding>
-                <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#3;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#4;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#5;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#6;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#2;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#3;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#8;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_2.html">
+      <file leaf-file-name="admin_config.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../V4/addons/theme/stv1/admin_config.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="20.357143">
+            <state vertical-scroll-proportion="-3.275862">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/Tpl/public/config.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-37.689655">
+              <caret line="400" column="32" selection-start-line="400" selection-start-column="32" selection-end-line="400" selection-end-column="32" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#volist#0;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#volist#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#volist#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#volist#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/Public/static/layout/scripts/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7931035">
+              <caret line="720" column="12" selection-start-line="720" selection-start-column="12" selection-end-line="720" selection-end-column="12" />
+              <folding>
+                <marker date="1479976576925" expanded="true" signature="18184:18219" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seniority.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/seniority.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="8.821428">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/php/www/newfamily/phpcms/templates/default/staff/print.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3571428">
+              <caret line="31" column="150" selection-start-line="31" selection-start-column="150" selection-end-line="31" selection-end-column="150" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addseniority.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/addseniority.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.30810812">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#dd#0;n#dl#2;n#form#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#dd#0;n#dl#3;n#form#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editseniority.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/editseniority.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.857142">
+              <caret line="40" column="25" selection-start-line="34" selection-start-column="20" selection-end-line="40" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#dd#0;n#dl#2;n#form#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="telmanage.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/php/www/newfamily/phpcms/templates/default/content/telmanage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="107.46429">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1435908617864" expanded="true" signature="2027:2044" placeholder="..." />
+                <marker date="1435908617864" expanded="true" signature="2198:2215" placeholder="..." />
+                <marker date="1435908617864" expanded="true" signature="2451:2468" placeholder="..." />
+                <marker date="1435908617864" expanded="true" signature="2506:2523" placeholder="..." />
+                <marker date="1435908617864" expanded="true" signature="2799:2829" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_3.html">
+      <file leaf-file-name="telprohibit.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/php/www/newfamily/phpcms/templates/default/content/telprohibit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="26.464285">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="components.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/global/css/components.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25110132">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="components-md.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global/css/components-md.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="136" selection-start-line="0" selection-start-column="122" selection-end-line="0" selection-end-column="136" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="components-rounded.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global/css/components-rounded.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="131" selection-start-line="0" selection-start-column="131" selection-end-line="0" selection-end-column="131" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blue.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/blue.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.428571">
-              <caret line="953" column="8" selection-start-line="953" selection-start-column="8" selection-end-line="953" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grey.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/grey.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7142856">
-              <caret line="901" column="8" selection-start-line="901" selection-start-column="8" selection-end-line="901" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="light.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/light.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0357144">
-              <caret line="895" column="8" selection-start-line="895" selection-start-column="8" selection-end-line="895" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="light2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/light2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858">
-              <caret line="900" column="11" selection-start-line="900" selection-start-column="11" selection-end-line="900" selection-end-column="11" />
-              <folding />
+            <state vertical-scroll-proportion="0.3392857">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <marker date="1479966190164" expanded="true" signature="1894:1911" placeholder="..." />
+                <marker date="1479966190164" expanded="true" signature="2065:2082" placeholder="..." />
+                <marker date="1479966190164" expanded="true" signature="2318:2335" placeholder="..." />
+                <marker date="1479966190164" expanded="true" signature="2373:2390" placeholder="..." />
+                <marker date="1479966190164" expanded="true" signature="2666:2696" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,28 +402,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/global/plugins/font-awesome/css/font-awesome.min.css" />
-        <option value="D:/360极速浏览器下载/font-awesome-4.7.0/index.HTML" />
-        <option value="$PROJECT_DIR$/assets/admin/pages/css/lock.css" />
-        <option value="$PROJECT_DIR$/extra_lock.html" />
-        <option value="$PROJECT_DIR$/assets/admin/pages/css/login.css" />
-        <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/assets/admin/pages/css/login2.css" />
-        <option value="$PROJECT_DIR$/login_2.html" />
-        <option value="$PROJECT_DIR$/login_3.html" />
-        <option value="$PROJECT_DIR$/login_soft.html" />
-        <option value="$PROJECT_DIR$/assets/admin/pages/css/login-soft.css" />
-        <option value="$PROJECT_DIR$/assets/admin/layout/css/layout.css" />
-        <option value="$PROJECT_DIR$/assets/admin/layout/scripts/layout.js" />
-        <option value="$PROJECT_DIR$/assets/admin/layout/scripts/demo.js" />
-        <option value="$PROJECT_DIR$/assets/global/scripts/metronic.js" />
-        <option value="D:/php/www/newfamily/statics/js/staff.js" />
-        <option value="D:/php/www/newfamily/phpcms/templates/default/content/edit.html" />
-        <option value="$PROJECT_DIR$/system_base_file.html" />
-        <option value="$PROJECT_DIR$/system_base_sms.html" />
-        <option value="$PROJECT_DIR$/system_base_email.html" />
         <option value="$PROJECT_DIR$/../app/Tpl/hr/Absence/algorithms.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/task_finished.html" />
         <option value="$PROJECT_DIR$/task_unfinished.html" />
         <option value="$PROJECT_DIR$/task_doing.html" />
@@ -210,16 +422,37 @@
         <option value="$PROJECT_DIR$/flow_config.html" />
         <option value="$PROJECT_DIR$/system_base_attachment.html" />
         <option value="$PROJECT_DIR$/assets/admin/layout/scripts/common.js" />
-        <option value="$PROJECT_DIR$/system_base.html" />
-        <option value="$PROJECT_DIR$/assets/admin/layout/css/themes/blue.css" />
         <option value="$PROJECT_DIR$/assets/admin/layout/css/themes/darkblue.css" />
         <option value="$PROJECT_DIR$/assets/admin/layout/css/themes/default.css" />
         <option value="$PROJECT_DIR$/assets/admin/layout/css/themes/grey.css" />
         <option value="$PROJECT_DIR$/assets/admin/layout/css/themes/light.css" />
         <option value="$PROJECT_DIR$/assets/admin/layout/css/themes/light2.css" />
-        <option value="$PROJECT_DIR$/assets/global/css/components.css" />
         <option value="$PROJECT_DIR$/assets/global/css/components-md.css" />
         <option value="$PROJECT_DIR$/assets/global/css/components-rounded.css" />
+        <option value="$PROJECT_DIR$/index_1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/../app/Public/static/layout/css/themes/lightblue.css" />
+        <option value="$PROJECT_DIR$/../app/Tpl/public/qs_header.html" />
+        <option value="$PROJECT_DIR$/../app/Tpl/public/qs_head.html" />
+        <option value="$PROJECT_DIR$/../app/Public/static/admin/layout/css/custom.css" />
+        <option value="$PROJECT_DIR$/../app/Tpl/public/qs_footer.html" />
+        <option value="$PROJECT_DIR$/../app/Public/static/layout/css/themes/blue.css" />
+        <option value="$PROJECT_DIR$/assets/admin/layout/css/layout.css" />
+        <option value="$PROJECT_DIR$/assets/admin/layout/css/themes/blue.css" />
+        <option value="$PROJECT_DIR$/../app/Public/static/admin/layout/css/layout.css" />
+        <option value="$PROJECT_DIR$/../app/Tpl/system/Index/index.html" />
+        <option value="D:/php/www/newfamily/phpcms/templates/default/content/edit.html" />
+        <option value="$PROJECT_DIR$/../app/Tpl/hr/Personal/yanzheng.html" />
+        <option value="$PROJECT_DIR$/assets/global/css/components.css" />
+        <option value="D:/php/www/newfamily/phpcms/templates/default/content/telprohibit.html" />
+        <option value="$PROJECT_DIR$/system_base.html" />
+        <option value="$PROJECT_DIR$/../V4/addons/theme/stv1/admin_config.html" />
+        <option value="$PROJECT_DIR$/../app/Tpl/public/config.html" />
+        <option value="$PROJECT_DIR$/../app/Public/static/layout/scripts/common.js" />
+        <option value="$PROJECT_DIR$/../app/Tpl/hr/Absence/editseniority.html" />
+        <option value="$PROJECT_DIR$/../app/Tpl/hr/Absence/addseniority.html" />
+        <option value="$PROJECT_DIR$/../app/Tpl/hr/Absence/seniority.html" />
+        <option value="D:/php/www/newfamily/phpcms/templates/default/staff/print.html" />
       </list>
     </option>
   </component>
@@ -229,9 +462,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-34" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -276,10 +509,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,7 +534,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../V4/addons/theme/stv1/_static/js/core.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app/Tpl/hr/Absence/addseniority.html" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="122" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="129" />
@@ -375,13 +622,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-34" y="0" width="1382" height="677" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22470239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.050653595" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16503268" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21651377" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0751634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,430 +649,385 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../app/Tpl/public/config.html</url>
+          <line>317</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../app/Tpl/public/config.html</url>
+          <line>391</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/admin/pages/css/login2.css">
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/grey.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034234233">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.7142856">
+          <caret line="901" column="8" selection-start-line="901" selection-start-column="8" selection-end-line="901" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/light.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.321429">
-          <caret line="2091" column="73" selection-start-line="2091" selection-start-column="73" selection-end-line="2091" selection-end-column="73" />
-          <folding />
+        <state vertical-scroll-proportion="-2.0357144">
+          <caret line="895" column="8" selection-start-line="895" selection-start-column="8" selection-end-line="895" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/scripts/demo.js">
+    <entry file="file://$PROJECT_DIR$/index_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7430168">
-          <caret line="272" column="6" selection-start-line="272" selection-start-column="6" selection-end-line="272" selection-end-column="6" />
-          <folding>
-            <element signature="e#86#10295#0" expanded="false" />
-            <element signature="e#10363#10686#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.04185022">
+          <caret line="1895" column="26" selection-start-line="1895" selection-start-column="26" selection-end-line="1895" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/scripts/layout.js">
+    <entry file="file://$PROJECT_DIR$/index_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#351#1885#0" expanded="false" />
-            <element signature="e#1959#4171#0" expanded="false" />
-            <element signature="e#4226#12226#0" expanded="false" />
-            <element signature="e#12311#12583#0" expanded="false" />
-            <element signature="e#12638#13098#0" expanded="false" />
-            <element signature="e#13175#13742#0" expanded="false" />
-            <element signature="e#13801#15068#0" expanded="false" />
-            <element signature="e#15126#16905#0" expanded="false" />
-            <element signature="e#16947#17129#0" expanded="false" />
-            <element signature="e#17178#18106#0" expanded="false" />
-            <element signature="e#18184#20059#0" expanded="false" />
-            <element signature="e#20091#22166#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.04185022">
+          <caret line="1845" column="26" selection-start-line="1505" selection-start-column="20" selection-end-line="1538" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/scripts/metronic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40828404">
-          <caret line="702" column="37" selection-start-line="702" selection-start-column="37" selection-end-line="702" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/myapply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2632613">
-          <caret line="29" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce_orders_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33194155">
-          <caret line="1377" column="30" selection-start-line="1337" selection-start-column="24" selection-end-line="1377" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/php/www/newfamily/statics/js/staff.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6858736">
-          <caret line="487" column="30" selection-start-line="487" selection-start-column="26" selection-end-line="487" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/php/www/newfamily/phpcms/templates/default/content/edit.html">
+    <entry file="file://$PROJECT_DIR$/assets/global/css/components-md.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+          <caret line="0" column="136" selection-start-line="0" selection-start-column="122" selection-end-line="0" selection-end-column="136" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/php/www/newfamily/phpcms/templates/default/staff/intok3.html">
+    <entry file="file://$PROJECT_DIR$/assets/global/css/components-rounded.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44117647">
-          <caret line="241" column="22" selection-start-line="241" selection-start-column="22" selection-end-line="241" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="131" selection-start-line="0" selection-start-column="131" selection-end-line="0" selection-end-column="131" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system_base_email.html">
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/light2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6237374">
-          <caret line="1299" column="81" selection-start-line="1299" selection-start-column="81" selection-end-line="1299" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.04185022">
+          <caret line="900" column="11" selection-start-line="900" selection-start-column="11" selection-end-line="900" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system_base_sms.html">
+    <entry file="file://$PROJECT_DIR$/index_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="852" column="102" selection-start-line="852" selection-start-column="98" selection-end-line="852" selection-end-column="102" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system_base_file.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6691919">
-          <caret line="856" column="37" selection-start-line="856" selection-start-column="37" selection-end-line="856" selection-end-column="37" />
+        <state vertical-scroll-proportion="3.7378855">
+          <caret line="1085" column="20" selection-start-line="1085" selection-start-column="20" selection-end-line="1085" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/algorithms.html">
+    <entry file="file://$PROJECT_DIR$/../app/Public/static/global/plugins/uniform/css/uniform.default.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0881057">
-          <caret line="68" column="93" selection-start-line="68" selection-start-column="93" selection-end-line="68" selection-end-column="93" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/apply.html">
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/page_css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06367925">
-          <caret line="391" column="54" selection-start-line="391" selection-start-column="38" selection-end-line="391" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_unfinished.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4310346">
-          <caret line="419" column="60" selection-start-line="419" selection-start-column="60" selection-end-line="419" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_doing.html">
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/qs_header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.178572">
-          <caret line="1032" column="40" selection-start-line="1032" selection-start-column="40" selection-end-line="1032" selection-end-column="40" />
+          <caret line="15" column="103" selection-start-line="15" selection-start-column="103" selection-end-line="15" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_finished.html">
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.89534885">
-          <caret line="428" column="29" selection-start-line="407" selection-start-column="24" selection-end-line="428" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social_security_reduce_employee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="428" column="29" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social_security_add_security.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="428" column="29" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social_security_reduce_security.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="428" column="29" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social_security_config.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04185022">
-          <caret line="428" column="29" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social_security_charts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04185022">
-          <caret line="428" column="29" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social_security_add_employee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04185022">
-          <caret line="428" column="29" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#4;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social_security_instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04185022">
-          <caret line="428" column="29" selection-start-line="407" selection-start-column="24" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow_mod_grounp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3898678">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.16299559">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_all.html">
+    <entry file="file://$PROJECT_DIR$/system_base_attachment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2287736">
-          <caret line="428" column="29" selection-start-line="407" selection-start-column="24" selection-end-line="428" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-5.428571">
+          <caret line="1897" column="67" selection-start-line="1897" selection-start-column="67" selection-end-line="1897" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16960353">
-          <caret line="1126" column="47" selection-start-line="1053" selection-start-column="40" selection-end-line="1126" selection-end-column="47" />
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1160" column="107" selection-start-line="1160" selection-start-column="56" selection-end-line="1160" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/qs_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.089286">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Public/static/admin/layout/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/css/plugins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.392857">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="27.892857">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/qs_page_other.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/page_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/模板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/scripts/metronic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11825726">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#li#5;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flow_grounp.html">
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/base/common.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9040404">
-          <caret line="1229" column="34" selection-start-line="1229" selection-start-column="34" selection-end-line="1229" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Public/static/layout/css/themes/blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="936" column="1" selection-start-line="936" selection-start-column="1" selection-end-line="936" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Public/static/layout/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.848018">
+          <caret line="2309" column="0" selection-start-line="2309" selection-start-column="0" selection-end-line="2309" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3309859">
+          <caret line="970" column="13" selection-start-line="970" selection-start-column="13" selection-end-line="970" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8207547">
+          <caret line="2297" column="18" selection-start-line="2297" selection-start-column="18" selection-end-line="2297" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Public/static/admin/layout/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0117924">
+          <caret line="2279" column="3" selection-start-line="2292" selection-start-column="0" selection-end-line="2292" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/qs_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25110132">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/qs_page_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/qs_init_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Public/static/layout/css/themes/lightblue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04185022">
+          <caret line="940" column="20" selection-start-line="940" selection-start-column="20" selection-end-line="940" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/php/www/newfamily/phpcms/templates/default/content/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04367816">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Personal/yanzheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9126437">
+          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/system/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47586206">
+          <caret line="505" column="26" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#block#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flow_type.html">
+    <entry file="file://D:/php/www/newfamily/statics/js/staff.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4722222">
-          <caret line="1016" column="75" selection-start-line="1015" selection-start-column="36" selection-end-line="1015" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/php/www/newfamily/statics/js/familyis_js/tel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4107144">
+          <caret line="2845" column="0" selection-start-line="2845" selection-start-column="0" selection-end-line="2845" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/php/www/newfamily/phpcms/templates/default/content/telmanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="107.46429">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1435908617864" expanded="true" signature="2027:2044" placeholder="..." />
+            <marker date="1435908617864" expanded="true" signature="2198:2215" placeholder="..." />
+            <marker date="1435908617864" expanded="true" signature="2451:2468" placeholder="..." />
+            <marker date="1435908617864" expanded="true" signature="2506:2523" placeholder="..." />
+            <marker date="1435908617864" expanded="true" signature="2799:2829" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flow_list.html">
+    <entry file="file://D:/php/www/newfamily/phpcms/templates/default/content/telprohibit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42424244">
-          <caret line="1230" column="34" selection-start-line="1021" selection-start-column="28" selection-end-line="1229" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.3392857">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1479966190164" expanded="true" signature="1894:1911" placeholder="..." />
+            <marker date="1479966190164" expanded="true" signature="2065:2082" placeholder="..." />
+            <marker date="1479966190164" expanded="true" signature="2318:2335" placeholder="..." />
+            <marker date="1479966190164" expanded="true" signature="2373:2390" placeholder="..." />
+            <marker date="1479966190164" expanded="true" signature="2666:2696" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flow_config.html">
+    <entry file="file://$PROJECT_DIR$/system_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.0631313">
-          <caret line="1257" column="35" selection-start-line="1257" selection-start-column="35" selection-end-line="1257" selection-end-column="35" />
+        <state vertical-scroll-proportion="-3.2209303">
+          <caret line="1300" column="75" selection-start-line="1300" selection-start-column="55" selection-end-line="1300" selection-end-column="75" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/scripts/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3809524">
-          <caret line="749" column="8" selection-start-line="749" selection-start-column="8" selection-end-line="749" selection-end-column="8" />
-          <folding>
-            <marker date="1479457343126" expanded="true" signature="18122:18157" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../V4/addons/theme/stv1/_static/js/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29321662">
-          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="283" selection-end-column="2" />
-          <folding>
-            <element signature="e#104#2453#0" expanded="false" />
-            <element signature="e#2937#3231#0" expanded="false" />
-            <element signature="e#3498#3673#0" expanded="false" />
-            <element signature="e#3726#4268#0" expanded="false" />
-            <element signature="e#4311#4806#0" expanded="false" />
-            <element signature="e#5078#5339#0" expanded="false" />
-            <element signature="e#5368#6696#0" expanded="false" />
-            <element signature="e#6877#7224#0" expanded="false" />
-            <element signature="e#7263#22442#0" expanded="false" />
-            <element signature="e#22458#23915#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49417248">
-          <caret line="1129" column="52" selection-start-line="1082" selection-start-column="44" selection-end-line="1129" selection-end-column="52" />
-          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -834,240 +1036,156 @@
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#3;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#4;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system_base_attachment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5714286">
-          <caret line="1318" column="87" selection-start-line="1318" selection-start-column="52" selection-end-line="1318" selection-end-column="87" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/css/plugins.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13286713">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8528678">
-          <caret line="1976" column="82" selection-start-line="1976" selection-start-column="82" selection-end-line="1976" selection-end-column="82" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#4;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#5;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#6;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#7;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#8;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/darkblue.css">
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/scripts/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
-          <caret line="896" column="8" selection-start-line="896" selection-start-column="8" selection-end-line="896" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.821428">
-          <caret line="904" column="8" selection-start-line="904" selection-start-column="8" selection-end-line="904" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/grey.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7142856">
-          <caret line="901" column="8" selection-start-line="901" selection-start-column="8" selection-end-line="901" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/light.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
-          <caret line="895" column="8" selection-start-line="895" selection-start-column="8" selection-end-line="895" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/light2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
-          <caret line="900" column="11" selection-start-line="900" selection-start-column="11" selection-end-line="900" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/themes/blue.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.428571">
-          <caret line="953" column="8" selection-start-line="953" selection-start-column="8" selection-end-line="953" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/css/components-md.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="136" selection-start-line="0" selection-start-column="122" selection-end-line="0" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/css/components-rounded.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="131" selection-start-line="0" selection-start-column="131" selection-end-line="0" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="26.464285">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3571428">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="785" column="0" selection-start-line="785" selection-start-column="0" selection-end-line="785" selection-end-column="0" />
           <folding>
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1479457343126" expanded="true" signature="18122:18157" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_2.html">
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/editseniority.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="20.357143">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.857142">
+          <caret line="40" column="25" selection-start-line="34" selection-start-column="20" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#dd#0;n#dl#2;n#form#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../V4/addons/theme/stv1/admin_config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.275862">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/css/components.css">
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/public/config.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25110132">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state vertical-scroll-proportion="-37.689655">
+          <caret line="400" column="32" selection-start-line="400" selection-start-column="32" selection-end-line="400" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#volist#0;n#tbody#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#volist#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#volist#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#volist#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#block#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Public/static/layout/scripts/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7931035">
+          <caret line="720" column="12" selection-start-line="720" selection-start-column="12" selection-end-line="720" selection-end-column="12" />
+          <folding>
+            <marker date="1479976576925" expanded="true" signature="18184:18219" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/seniority.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.821428">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/php/www/newfamily/phpcms/templates/default/staff/print.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="31" column="150" selection-start-line="31" selection-start-column="150" selection-end-line="31" selection-end-column="150" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Tpl/hr/Absence/addseniority.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.30810812">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#dd#0;n#dl#2;n#form#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#dd#0;n#dl#3;n#form#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

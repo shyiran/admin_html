@@ -11,18 +11,17 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport"/>
 	<meta content="" name="description"/>
 	<meta content="" name="author"/>
-
 	<link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 	<link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
 	<link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/global/plugins/uniform/css/uniform.default.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/><!--滑动开关-->
 	<!-- 页面私有样式结束 -->
 	<link href="assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
-	<link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+	<!--link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css"/><!--暂时不清楚-->
 	<link href="assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
 	<link href="assets/admin/layout/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>
-	<link href="assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <body class="page-header-fixed page-quick-sidebar-over-content page-style-square">
@@ -888,28 +887,9 @@
 	<!-- 侧导航结束 -->
 	<div class="page-content-wrapper">
 		<div class="page-content">
-			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-							<h4 class="modal-title">Modal title</h4>
-						</div>
-						<div class="modal-body">
-							Widget settings form goes here
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn blue">Save changes</button>
-							<button type="button" class="btn default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="theme-panel hidden-xs hidden-sm">
-				<div class="toggler">
-				</div>
-				<div class="toggler-close">
-				</div>
+				<div class="toggler"></div>
+				<div class="toggler-close"></div>
 				<div class="theme-options">
 					<div class="theme-option theme-colors clearfix">
 						<span> 页面皮肤 </span>
@@ -1121,11 +1101,11 @@
 										<tbody>
 										<tr>
 											<th>字段</th>
-											<th class="line_l">名称</th>
-											<th class="line_l">输入类型</th>
-											<th class="line_l">默认值格式</th>
-											<th class="line_l">提示信息</th>
-											<th class="line_l">验证事件</th>
+											<th>名称</th>
+											<th>输入类型</th>
+											<th>默认值格式</th>
+											<th>提示信息</th>
+											<th>验证事件</th>
 										</tr>
 										<tr overstyle="on">
 											<td>
@@ -1313,13 +1293,16 @@
 								<div class="form-body">
 									<div class="form-group" id="dl_site_closed">
 										<label class="col-md-2 control-label"> 系统开关： </label>
-										<div class="col-md-10 radio-list">
-											<label class="radio-inline">
+										<div class="col-md-10">
+											<div class="radio-list">
+												<label class="radio-inline">
 												<input type="radio" name="site_closed"  value="1"  onclick="admin.siteConfig(this.value)"> 开启
 											</label>
-											<label class="radio-inline">
-												<input type="radio" name="site_closed"  value="0" onclick="admin.siteConfig(this.value)"> 关闭
-											</label>
+												<label class="radio-inline">
+													<input type="radio" name="site_closed"  value="0" onclick="admin.siteConfig(this.value)"> 关闭
+												</label>
+												<span class="help-inline"> 是否关闭系统. </span>
+											</div>
 										</div>
 									</div>
 									<div class="form-group">
@@ -1333,28 +1316,57 @@
 										<label class="col-md-2 control-label"> 系统地址 : </label>
 										<div class="col-md-10">
 											<input type="text" class="form-control input-inline input-medium" placeholder="系统地址">
-											<span class="help-inline"> 系统地址. </span>
+											<span class="help-inline"> 系统外部访问地址. </span>
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="col-md-2 control-label"> 版权信息 : </label>
+										<label class="col-md-2 control-label"> IT受理邮箱 : </label>
 										<div class="col-md-10">
-											<input type="text" class="form-control input-inline input-medium" placeholder="版权信息">
-											<span class="help-inline"> 版权信息. </span>
+											<input type="text" class="form-control input-inline input-medium" placeholder="IT受理邮箱">
+											<span class="help-inline"> 用户遇到问题接受受理邮箱. </span>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2 control-label"> 服务电话 : </label>
+										<div class="col-md-10">
+											<input type="text" class="form-control input-inline input-medium" placeholder="服务电话">
+											<span class="help-inline"> 服务电话. </span>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label class="col-md-2 control-label"> 默认模块： </label>
+										<div class="col-md-10 radio-list">
+											<select class="form-control input-inline input-sm input-medium">
+												<option value="1"> 个人办公 </option>
+												<option value="2" selected> CRM系统 </option>
+												<option value="e"> 行政办公 </option>
+												<option value="e"> 人力资源 </option>
+												<option value="e"> 知识交流 </option>
+												<option value="e"> 系统设置 </option>
+											</select>
+											<span class="help-inline"> 用户登录内网默认页面首页显示模块. </span>
 										</div>
 									</div>
 									<div class="form-group">
 										<label class="col-md-2 control-label"> 风格设置： </label>
 										<div class="col-md-10 radio-list">
-											<label class="radio-inline">
-												<input type="radio" name="optionsRadiosd"  value="option1" checked> 风格 1
-											</label>
-											<label class="radio-inline">
-												<input type="radio" name="optionsRadiosd"  value="option2"> 风格 2
-											</label>
-											<label class="radio-inline">
-												<input type="radio" name="optionsRadiosd"  value="option3"> 风格3
-											</label>
+											<select class="form-control input-inline input-sm input-medium">
+												<option value="1">  默认（黑色） </option>
+												<option value="2" selected> 深蓝色 </option>
+												<option value="e"> 浅蓝色 </option>
+												<option value="e"> 深灰色 </option>
+												<option value="e"> 浅灰色 </option>
+												<option value="e"> 白色 </option>
+											</select>
+											<span class="help-inline"> 用户登录内网默认页面风格颜色. </span>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2 control-label"> 版权信息 : </label>
+										<div class="col-md-10">
+											<textarea class="form-control" rows="3">版权信息</textarea>
+											<span class="help-inline"> 页面底部版权信息. </span>
 										</div>
 									</div>
 									<div class="form-group" id="dl_site_closed_reason" style="display: none;">
@@ -1661,7 +1673,7 @@
 									</div>
 									<div class="col2">
 										<div class="date">
-											Just now
+											刚刚
 										</div>
 									</div>
 								</li>
@@ -1793,7 +1805,7 @@
 									</div>
 									<div class="col2">
 										<div class="date">
-											Just now
+											刚刚
 										</div>
 									</div>
 								</li>
@@ -1946,49 +1958,39 @@
 	</div>
 </div>
 <div class="page-footer">
-	<div class="page-footer-inner">全时公司 版本所有 Copyright 2000-2016 quanshi Corporation, All Rights Reserved</div>
-	<div class="scroll-to-top">
-		<i class="icon-arrow-up"></i>
+	<div class="page-footer-inner">
+		<div class="server hidden-xs">
+			<span>服务电话：010-59933599-6666</span>
+			<p>
+				<a href="index.php" title="访问官网">全时内网</a>|<a href="index.php?m=content&c=index&a=lists&catid=6" title="公司通讯录">公司通讯录</a>|<a href="new_index.php?m=&&m=Hr&c=Leave&a=index" title="离职系统">离职系统</a>|<a onclick="javascript:suggest()" style="color:blue" href="javascript:void(0)" title="意见反馈">意见反馈</a>|<b class="tigger" id="ithelp"><a style="color:red" href="index.php?m=ithelp&amp;c=survey&amp;a=show">满意度调查</a></b>|<a href="index.php?m=content&amp;c=index&amp;a=lists&amp;catid=66" title="联系我们">联系我们</a>|<a href="index.php" title="帮助">帮助</a>
+			</p>
+		</div>
+		<div class="copyright">全时公司 版本所有 Copyright 2000-2016 quanshi Corporation, All Rights Reserved</div>
 	</div>
+	<div class="scroll-to-top" style="display: block;"><i class="icon-arrow-up"></i></div>
 </div>
 <!--[if lt IE 9]>
 <script src="assets/global/plugins/respond.min.js"></script>
 <script src="assets/global/plugins/excanvas.min.js"></script>
 <![endif]-->
 <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
-<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-<script src="assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+
 <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-<script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-<script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script><!--滚动条插件slimScroll-->
+
 <script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
 <script src="assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
-<script src="assets/admin/layout/scripts/common.js" type="text/javascript"></script>
-
 
 <script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
 <script src="assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
 <script src="assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
-<script src="assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
-<script src="assets/admin/pages/scripts/index.js" type="text/javascript"></script>
-<script src="assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
+<script src="assets/admin/layout/scripts/common.js" type="text/javascript"></script>
 <script>
 	jQuery(document).ready(function() {
 		Metronic.init(); // 初始化该核心组件
 		Layout.init(); // 初始化当前布局
 		QuickSidebar.init(); // 初始化侧面导航
-		Demo.init();
-		Index.init();
-		Index.initDashboardDaterange();
-		Index.initJQVMAP(); // init index page's custom scripts
-		Index.initCalendar(); // init index page's custom scripts
-		Index.initCharts(); // init index page's custom scripts
-		Index.initChat();
-		Index.initMiniCharts();
-		Tasks.initDashboardWidget();
 	});
 </script>
 </body>

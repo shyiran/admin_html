@@ -960,3 +960,21 @@ body {  background-color: #4276A4;  }
 .block-spinner-bar > div {
   background: #da594a;
 }
+/******Page Footer******/
+.page-footer .page-footer-inner {
+  float: left;
+  width: 100%;
+}
+
+.page-footer .page-footer-inner .server {
+  float: left;
+  width: 100%;
+}
+.page-footer .page-footer-inner span {
+  float: right;
+}
+.page-footer .page-footer-inner p {
+  float: left;
+}
+.page-footer .page-footer-inner p a:link{  color: #ffffff;  margin: 0px 10px;  }
+.page-footer .page-footer-inner .copyright {  margin-left:10px;  margin-bottom: 10px;  }

@@ -61,7 +61,7 @@ $.extend( $.fn.dataTableExt.oPagination, {
 			// This could use some improving - however, see
 			// https://github.com/DataTables/DataTables/issues/163 - this will
 			// be changing in the near future, so not much point in doing too
-			// much just now
+			// much ¸Õ¸Õ
 			if ( oPaging.iTotalPages <= 6 ) {
 				for ( i=0 ; i<oPaging.iTotalPages ; i++ ) {
 					pages.push( i );

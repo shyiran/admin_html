@@ -10562,7 +10562,7 @@
 		 * has elapsed the state will be returned to the default.
 		 * Value is given in seconds.
 		 *  @type int
-		 *  @default 7200 <i>(2 hours)</i>
+		 *  @default 7200 <i>(2小时前)</i>
 		 *
 		 *  @dtopt Options
 		 *  @name DataTable.defaults.stateDuration
